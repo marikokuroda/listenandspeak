@@ -1,0 +1,1380 @@
+{
+  "1": {
+    "order": 1,
+    "type": "unit",
+    "title": "What's Your Name?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Hello! What’s your name?" },
+      { "speaker": "You", "text": "My name is [name]. What’s your name?" },
+      { "speaker": "Coach", "text": "My name is Alex. Nice to meet you!" }
+    ],
+    "answerBanks": {}
+  },
+
+  "2": {
+    "order": 2,
+    "type": "unit",
+    "title": "How Old Are You?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Hi! How old are you?" },
+      { "speaker": "You", "text": "I’m [age] years old." }
+    ],
+    "answerBanks": {
+      "age": [
+        { "text": "six" },
+        { "text": "seven" },
+        { "text": "eight" },
+        { "text": "nine" },
+        { "text": "ten" },
+        { "text": "eleven" },
+        { "text": "twelve" }
+      ]
+    }
+  },
+
+  "3": {
+    "order": 3,
+    "type": "unit",
+    "title": "How Are You Today?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Hi! How are you today?" },
+      { "speaker": "You", "text": "I’m [feeling]." }
+    ],
+    "answerBanks": {
+      "feeling": [
+        { "text": "happy" },
+        { "text": "sad" },
+        { "text": "tired" },
+        { "text": "angry" },
+        { "text": "excited" },
+        { "text": "hungry" },
+        { "text": "bored" },
+        { "text": "sleepy" }
+      ]
+    }
+  },
+
+  "review 1-3": {
+    "order": 4,
+    "type": "review",
+    "title": "Review 1–3",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Hello! What’s your name?" },
+      { "speaker": "You", "text": "My name is [name]." },
+      { "speaker": "Coach", "text": "Nice to meet you! How old are you?" },
+      { "speaker": "You", "text": "I’m [age] years old." },
+      { "speaker": "Coach", "text": "How are you today?" },
+      { "speaker": "You", "text": "I’m [feeling]." }
+    ],
+    "answerBanks": {
+      "age": [
+        { "text": "six" },
+        { "text": "seven" },
+        { "text": "eight" },
+        { "text": "nine" },
+        { "text": "ten" },
+        { "text": "eleven" },
+        { "text": "twelve" }
+      ],
+      "feeling": [
+        { "text": "happy" },
+        { "text": "sad" },
+        { "text": "tired" },
+        { "text": "angry" },
+        { "text": "excited" },
+        { "text": "hungry" },
+        { "text": "bored" },
+        { "text": "sleepy" }
+      ]
+    }
+  },
+
+  "4": {
+    "order": 5,
+    "type": "unit",
+    "title": "What Grade Are You In?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Hi! What grade are you in?" },
+      { "speaker": "You", "text": "I’m in [grade] grade." }
+    ],
+    "answerBanks": {
+      "grade": [
+        { "text": "first" },
+        { "text": "second" },
+        { "text": "third" },
+        { "text": "fourth" },
+        { "text": "fifth" },
+        { "text": "sixth" }
+      ]
+    }
+  },
+
+  "5": {
+    "order": 6,
+    "type": "unit",
+    "title": "When Is Your Birthday?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "When is your birthday?" },
+      { "speaker": "You", "text": "My birthday is [month] [date]." }
+    ],
+    "answerBanks": {
+      "month": [
+        { "text": "January" },
+        { "text": "February" },
+        { "text": "March" },
+        { "text": "April" },
+        { "text": "May" },
+        { "text": "June" },
+        { "text": "July" },
+        { "text": "August" },
+        { "text": "September" },
+        { "text": "October" },
+        { "text": "November" },
+        { "text": "December" }
+      ]
+    }
+  },
+
+  "6": {
+    "order": 7,
+    "type": "unit",
+    "title": "What Color Do You Like?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What color do you like?" },
+      { "speaker": "You", "text": "I like [color]." }
+    ],
+    "answerBanks": {
+      "color": [
+        { "text": "red" },
+        { "text": "blue" },
+        { "text": "yellow" },
+        { "text": "green" },
+        { "text": "black" },
+        { "text": "white" },
+        { "text": "pink" },
+        { "text": "purple" },
+        { "text": "orange" },
+        { "text": "brown" }
+      ]
+    }
+  },
+
+  "review-4-6": {
+    "order": 7,
+    "type": "review",
+    "title": "Review 4–6",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      {
+        "speaker": "You",
+        "text": "Hello, my name is [name]."
+      },
+      {
+        "speaker": "You",
+        "text": "I’m [age] years old."
+      },
+      {
+        "speaker": "You",
+        "text": "My birthday is [month] [date]."
+      },
+      {
+        "speaker": "You",
+        "text": "I like [color]."
+      }
+    ],
+    "answerBanks": {
+      "age": [
+        { "text": "six" },
+        { "text": "seven" },
+        { "text": "eight" },
+        { "text": "nine" },
+        { "text": "ten" },
+        { "text": "eleven" },
+        { "text": "twelve" },
+        { "text": "thirteen" },
+        { "text": "fourteen" },
+        { "text": "fifteen" },
+        { "text": "sixteen" },
+        { "text": "seventeen" },
+        { "text": "eighteen" }
+      ],
+      "month": [
+        { "text": "January" },
+        { "text": "February" },
+        { "text": "March" },
+        { "text": "April" },
+        { "text": "May" },
+        { "text": "June" },
+        { "text": "July" },
+        { "text": "August" },
+        { "text": "September" },
+        { "text": "October" },
+        { "text": "November" },
+        { "text": "December" }
+      ],
+      "color": [
+        { "text": "red" },
+        { "text": "blue" },
+        { "text": "yellow" },
+        { "text": "green" },
+        { "text": "black" },
+        { "text": "white" },
+        { "text": "pink" },
+        { "text": "purple" },
+        { "text": "orange" },
+        { "text": "brown" }
+      ]
+    }
+  },
+
+  "7": {
+    "order": 8,
+    "type": "unit",
+    "title": "What Day Is It Today?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What day is it today?" },
+      { "speaker": "You", "text": "It’s [day], [month] [number]." }
+    ],
+    "answerBanks": {
+      "day": [
+        { "text": "Sunday" },
+        { "text": "Monday" },
+        { "text": "Tuesday" },
+        { "text": "Wednesday" },
+        { "text": "Thursday" },
+        { "text": "Friday" },
+        { "text": "Saturday" }
+      ],
+      "month": [
+        { "text": "January" },
+        { "text": "February" },
+        { "text": "March" },
+        { "text": "April" },
+        { "text": "May" },
+        { "text": "June" },
+        { "text": "July" },
+        { "text": "August" },
+        { "text": "September" },
+        { "text": "October" },
+        { "text": "November" },
+        { "text": "December" }
+      ]
+    }
+  },
+
+  "8": {
+    "order": 9,
+    "type": "unit",
+    "title": "What’s the Weather Today?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What’s the weather today?" },
+      { "speaker": "You", "text": "It’s [weather]." }
+    ],
+    "answerBanks": {
+      "weather": [
+        { "text": "sunny" },
+        { "text": "rainy" },
+        { "text": "cloudy" },
+        { "text": "snowy" },
+        { "text": "windy" },
+        { "text": "hot" },
+        { "text": "cold" },
+        { "text": "warm" }
+      ]
+    }
+  },
+
+  "9": {
+    "order": 10,
+    "type": "unit",
+    "title": "What Are You Wearing?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What are you wearing?" },
+      { "speaker": "You", "text": "I’m wearing a [color] [clothes]." }
+    ],
+    "answerBanks": {
+      "color": [
+        { "text": "red" },
+        { "text": "blue" },
+        { "text": "yellow" },
+        { "text": "green" },
+        { "text": "black" },
+        { "text": "white" }
+      ],
+      "clothes": [
+        { "text": "shirt" },
+        { "text": "pants" },
+        { "text": "shorts" },
+        { "text": "skirt" },
+        { "text": "jacket" },
+        { "text": "dress" }
+      ]
+    }
+  },
+
+"review-7-9": {
+    "order": 11,
+    "type": "review",
+    "title": "Review 7–9",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      {
+        "speaker": "You",
+        "text": "Today is [day], [month] [number]. It's [weather]. I'm wearing a [color] [clothes]."
+      }
+    ],
+    "answerBanks": {
+      "day": [
+        { "text": "Sunday" },
+        { "text": "Monday" },
+        { "text": "Tuesday" },
+        { "text": "Wednesday" },
+        { "text": "Thursday" },
+        { "text": "Friday" },
+        { "text": "Saturday" }
+      ],
+      "month": [
+        { "text": "January" },
+        { "text": "February" },
+        { "text": "March" },
+        { "text": "April" },
+        { "text": "May" },
+        { "text": "June" },
+        { "text": "July" },
+        { "text": "August" },
+        { "text": "September" },
+        { "text": "October" },
+        { "text": "November" },
+        { "text": "December" }
+      ],
+      "weather": [
+        { "text": "sunny" },
+        { "text": "rainy" },
+        { "text": "cloudy" },
+        { "text": "snowy" },
+        { "text": "windy" },
+        { "text": "hot" },
+        { "text": "cold" },
+        { "text": "warm" },
+        { "text": "stormy" }
+      ],
+      "color": [
+        { "text": "red" },
+        { "text": "blue" },
+        { "text": "yellow" },
+        { "text": "green" },
+        { "text": "black" },
+        { "text": "white" },
+        { "text": "pink" },
+        { "text": "purple" },
+        { "text": "orange" },
+        { "text": "brown" }
+      ],
+      "clothes": [
+        { "text": "shirt" },
+        { "text": "pants" },
+        { "text": "shorts" },
+        { "text": "skirt" },
+        { "text": "jacket" },
+        { "text": "coat" },
+        { "text": "socks" },
+        { "text": "shoes" },
+        { "text": "hat" },
+        { "text": "dress" }
+      ]
+    }
+  },
+  
+  "10": {
+    "order": 12,
+    "type": "unit",
+    "title": "What Time Do You Wake Up?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What time do you wake up?" },
+      { "speaker": "You", "text": "I wake up at [number] o’clock." }
+    ],
+    "answerBanks": {}
+  },
+
+  "11": {
+    "order": 13,
+    "title": "How Do You Go to School?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "How do you go to school?" },
+      { "speaker": "You", "text": "I [transportation]." }
+    ],
+    "answerBanks": {
+      "transportation": [
+        { "text": "walk" },
+        { "text": "ride the bus" },
+        { "text": "ride the train" },
+        { "text": "go by car" },
+        { "text": "ride my bike" }
+      ]
+    }
+  },
+
+  "12": {
+    "order": 14,
+    "type": "unit",
+    "title": "What Is Your Favorite Subject?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your favorite subject?" },
+      { "speaker": "You", "text": "My favorite subject is [subject]." }
+    ],
+    "answerBanks": {
+      "subject": [
+        { "text": "math" },
+        { "text": "English" },
+        { "text": "science" },
+        { "text": "music" },
+        { "text": "art" },
+        { "text": "PE" }
+      ]
+    }
+  },
+
+  "review-10-12": {
+    "order": 15,
+    "type": "review",
+    "title": "Review 10–12",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      {
+        "speaker": "You",
+        "text": "I wake up at [number] o'clock. I [transportation] to school. My favorite subject is [subject]."
+      }
+    ],
+    "answerBanks": {
+      "transportation": [
+        { "text": "walk" },
+        { "text": "ride the train" },
+        { "text": "ride the bus" },
+        { "text": "go by car" },
+        { "text": "ride my bike" },
+        { "text": "take a taxi" },
+        { "text": "ride my scooter" }
+      ],
+      "subject": [
+        { "text": "math" },
+        { "text": "English" },
+        { "text": "science" },
+        { "text": "music" },
+        { "text": "art" },
+        { "text": "PE" },
+        { "text": "social studies" }
+      ]
+    }
+  },
+
+"13": {
+  "order": 16,  
+  "type": "unit",
+  "title": "Do You Have a ...?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "Do you have [item]?" },
+      { "speaker": "Coach", "text": "Yes, I do. / No, I don’t." },
+      { "speaker": "Coach", "text": "Do you have [item]?" },
+      { "speaker": "You", "text": "Yes, I do. / No, I don’t." }
+    ],
+    "answerBanks": {
+      "item": [
+        { "text": "pencil" },
+        { "text": "pen" },
+        { "text": "eraser" },
+        { "text": "ruler" },
+        { "text": "notebook" },
+        { "text": "book" },
+        { "text": "bag" },
+        { "text": "scissors" }
+      ]
+    }
+  },
+
+  "14": {
+    "order": 17,
+    "type": "unit",
+    "title": "What Does It Look Like?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What does your [item] look like?" },
+      { "speaker": "You", "text": "It is [description]." }
+    ],
+    "answerBanks": {
+      "item": [
+        { "text": "pencil" },
+        { "text": "pen" },
+        { "text": "eraser" },
+        { "text": "book" },
+        { "text": "bag" }
+      ],
+      "description": [
+        { "text": "big" },
+        { "text": "small" },
+        { "text": "long" },
+        { "text": "short" },
+        { "text": "new" },
+        { "text": "old" }
+      ]
+    }
+  },
+
+  "15": {
+    "order": 18,
+    "type": "unit",
+    "title": "Where Is Your ...?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Where is your [item]?" },
+      { "speaker": "You", "text": "It is [preposition] [place]." }
+    ],
+    "answerBanks": {
+      "item": [
+        { "text": "book" },
+        { "text": "bag" },
+        { "text": "pencil" }
+      ],
+      "preposition": [
+        { "text": "in" },
+        { "text": "on" },
+        { "text": "under" },
+        { "text": "next to" }
+      ],
+      "place": [
+        { "text": "my desk" },
+        { "text": "my bag" },
+        { "text": "the table" }
+      ]
+    }
+  },
+
+  "review-13-15": {
+    "order": 19,
+    "type": "review",
+    "title": "Review 13–15",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Do you have [item]?" },
+      { "speaker": "You", "text": "Yes, I do." },
+      { "speaker": "Coach", "text": "What does it look like?" },
+      { "speaker": "You", "text": "It is [description]." },
+      { "speaker": "Coach", "text": "Where is it?" },
+      { "speaker": "You", "text": "It is [preposition] [place]." }
+    ],
+    "answerBanks": {
+      "item": [
+        { "text": "book" },
+        { "text": "bag" },
+        { "text": "pencil" }
+      ],
+      "description": [
+        { "text": "big" },
+        { "text": "small" },
+        { "text": "new" }
+      ],
+      "preposition": [
+        { "text": "in" },
+        { "text": "on" },
+        { "text": "under" }
+      ],
+      "place": [
+        { "text": "my desk" },
+        { "text": "my bag" }
+      ]
+    }
+  },
+
+  "16": {
+    "order": 20,
+    "type": "unit",
+    "title": "What Is Your Favorite Food?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your favorite food?" },
+      { "speaker": "You", "text": "My favorite food is [food]. It is [taste]." }
+    ],
+    "answerBanks": {
+      "food": [
+        { "text": "rice" },
+        { "text": "bread" },
+        { "text": "chicken" },
+        { "text": "noodles" },
+        { "text": "pizza" }
+      ],
+      "taste": [
+        { "text": "good" },
+        { "text": "sweet" },
+        { "text": "tasty" }
+      ]
+    }
+  },
+
+  "17": {
+    "order": 21,
+    "type": "unit",
+    "title": "What Is Your Favorite Animal?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your favorite animal?" },
+      { "speaker": "You", "text": "My favorite animal is [animal]. They are [description]." }
+    ],
+    "answerBanks": {
+      "animal": [
+        { "text": "dogs" },
+        { "text": "cats" },
+        { "text": "birds" },
+        { "text": "fish" },
+        { "text": "rabbits" }
+      ],
+      "description": [
+        { "text": "cute" },
+        { "text": "big" },
+        { "text": "small" },
+        { "text": "fun" }
+      ]
+    }
+  },
+
+  "18": {
+    "order": 22,
+    "type": "unit",
+    "title": "What Do You like To Do After School?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What do you like to do after school?" },
+      { "speaker": "You", "text": "I like to [activity] [withWho]." }
+    ],
+    "answerBanks": {
+      "activity": [
+        { "text": "play games" },
+        { "text": "read books" },
+        { "text": "watch TV" },
+        { "text": "draw" }
+      ],
+      "withWho": [
+        { "text": "with my friends" },
+        { "text": "with my family" },
+        { "text": "by myself" }
+      ]
+    }
+  },
+
+  "review-16-18": {
+    "order": 23,
+    "type": "review",
+    "title": "Review 16–18",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "My favorite food is [food]." },
+      { "speaker": "You", "text": "My favorite animal is [animal]." },
+      { "speaker": "You", "text": "I like to [activity] [withWho]." }
+    ],
+    "answerBanks": {
+      "food": [
+        { "text": "rice" },
+        { "text": "bread" },
+        { "text": "pizza" }
+      ],
+      "animal": [
+        { "text": "dogs" },
+        { "text": "cats" },
+        { "text": "fish" }
+      ],
+      "activity": [
+        { "text": "play games" },
+        { "text": "read books" },
+        { "text": "watch TV" }
+      ],
+      "withWho": [
+        { "text": "with my friends" },
+        { "text": "with my family" }
+      ]
+    }
+  },
+
+  "19": {
+    "order": 24,
+    "type": "unit",
+    "title": "Can You ...?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "Can you [action]?" },
+      { "speaker": "Coach", "text": "Yes, I can. / No, I can’t." },
+      { "speaker": "Coach", "text": "Can you [action]?" },
+      { "speaker": "You", "text": "Yes, I can. / No, I can’t." }
+    ],
+    "answerBanks": {
+      "action": [
+        { "text": "swim" },
+        { "text": "dance" },
+        { "text": "ride a bike" },
+        { "text": "play soccer" },
+        { "text": "sing" }
+      ]
+    }
+  },
+
+  "20": {
+    "order": 25,
+    "type": "unit",
+    "title": "What Are You Good At?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What are you good at?" },
+      { "speaker": "You", "text": "I’m good at [activity]. I do it [frequency]." }
+    ],
+    "answerBanks": {
+      "activity": [
+        { "text": "drawing" },
+        { "text": "singing" },
+        { "text": "dancing" },
+        { "text": "running" },
+        { "text": "reading" }
+      ],
+      "frequency": [
+        { "text": "every day" },
+        { "text": "every week" },
+        { "text": "a lot" },
+        { "text": "sometimes" }
+      ]
+    }
+  },
+
+  "21": {
+    "order": 26,
+    "type": "unit",
+    "title": "What Sports Do You Play?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What sports do you play?" },
+      { "speaker": "You", "text": "I play [sport]. I play it [withWho]." }
+    ],
+    "answerBanks": {
+      "sport": [
+        { "text": "soccer" },
+        { "text": "baseball" },
+        { "text": "basketball" },
+        { "text": "tennis" },
+        { "text": "swimming" }
+      ],
+      "withWho": [
+        { "text": "with my friends" },
+        { "text": "with my family" },
+        { "text": "by myself" }
+      ]
+    }
+  },
+
+  "review-19-21": {
+    "order": 27,
+    "type": "review",
+    "title": "Review 19–21",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I’m good at [activity]." },
+      { "speaker": "You", "text": "I do it [frequency]." },
+      { "speaker": "You", "text": "I also play [sport]. I play it [withWho]." }
+    ],
+    "answerBanks": {
+      "activity": [
+        { "text": "drawing" },
+        { "text": "singing" },
+        { "text": "running" }
+      ],
+      "frequency": [
+        { "text": "every day" },
+        { "text": "sometimes" }
+      ],
+      "sport": [
+        { "text": "soccer" },
+        { "text": "baseball" },
+        { "text": "basketball" }
+      ],
+      "withWho": [
+        { "text": "with my friends" },
+        { "text": "with my family" }
+      ]
+    }
+  },
+
+  "22": {
+    "order": 28,
+    "type": "unit",
+    "title": "Who Do You Live With?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Who do you live with?" },
+      { "speaker": "You", "text": "I live with my [family]. They are [personality]." }
+    ],
+    "answerBanks": {
+      "family": [
+        { "text": "mother" },
+        { "text": "father" },
+        { "text": "brother" },
+        { "text": "sister" },
+        { "text": "grandma" },
+        { "text": "grandpa" }
+      ],
+      "personality": [
+        { "text": "kind" },
+        { "text": "funny" },
+        { "text": "nice" },
+        { "text": "smart" }
+      ]
+    }
+  },
+
+  "23": {
+    "order": 29,
+    "type": "unit",
+    "title": "What Do You Do With Your Family?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What do you do with your family?" },
+      { "speaker": "You", "text": "We [activity] together." }
+    ],
+    "answerBanks": {
+      "activity": [
+        { "text": "watch TV" },
+        { "text": "play games" },
+        { "text": "go shopping" },
+        { "text": "eat together" }
+      ]
+    }
+  },
+
+  "24": {
+    "order": 30,
+    "type": "unit",
+    "title": "What Do You Do at Home?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What do you do at home?" },
+      { "speaker": "You", "text": "I [activity]. I do it [when] [time]." }
+    ],
+    "answerBanks": {
+      "activity": [
+        { "text": "do homework" },
+        { "text": "clean my room" },
+        { "text": "wash dishes" },
+        { "text": "watch TV" }
+      ],
+      "when": [
+        { "text": "before" },
+        { "text": "after" }
+      ],
+      "time": [
+        { "text": "dinner" },
+        { "text": "school" },
+        { "text": "bedtime" }
+      ]
+    }
+  },
+
+  "review-22-24": {
+    "order": 31,
+    "type": "review",
+    "title": "Review 22–24",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I live with my [family]." },
+      { "speaker": "You", "text": "We [activity] together." },
+      { "speaker": "You", "text": "I [activity2] at home. I do it [when] [time]." }
+    ],
+    "answerBanks": {
+      "family": [
+        { "text": "mother" },
+        { "text": "father" },
+        { "text": "brother" }
+      ],
+      "activity": [
+        { "text": "watch TV" },
+        { "text": "play games" }
+      ],
+      "activity2": [
+        { "text": "do homework" },
+        { "text": "clean my room" }
+      ],
+      "when": [
+        { "text": "before" },
+        { "text": "after" }
+      ],
+      "time": [
+        { "text": "dinner" },
+        { "text": "school" }
+      ]
+    }
+  },
+
+  "25": {
+    "order": 32,
+    "type": "unit",
+    "title": "What Season Do You Like?",
+    "youtubeId": "jxQ4DOtMdDM",
+    "script": [
+      { "speaker": "Coach", "text": "What season do you like?" },
+      { "speaker": "You", "text": "I like [season]. It is [temperature]. I can [activity]." }
+    ],
+    "answerBanks": {
+      "season": [
+        { "text": "spring" },
+        { "text": "summer" },
+        { "text": "fall" },
+        { "text": "winter" }
+      ],
+      "temperature": [
+        { "text": "warm" },
+        { "text": "hot" },
+        { "text": "cool" },
+        { "text": "cold" }
+      ],
+      "activity": [
+        { "text": "see flowers" },
+        { "text": "go swimming" },
+        { "text": "play outside" },
+        { "text": "play in the snow" }
+      ]
+    }
+  },
+
+  "26": {
+    "order": 33,
+    "type": "unit",
+    "title": "What Is Your Favorite Weather?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your favorite weather?" },
+      { "speaker": "You", "text": "I like [weather] days. I can [activity]. It makes me feel [feeling]." }
+    ],
+    "answerBanks": {
+      "weather": [
+        { "text": "sunny" },
+        { "text": "rainy" },
+        { "text": "cloudy" },
+        { "text": "snowy" },
+        { "text": "windy" }
+      ],
+      "activity": [
+        { "text": "play soccer" },
+        { "text": "go outside" },
+        { "text": "read books" },
+        { "text": "play games" }
+      ],
+      "feeling": [
+        { "text": "happy" },
+        { "text": "relaxed" },
+        { "text": "excited" }
+      ]
+    }
+  },
+
+  "27": {
+    "order": 34,
+    "type": "unit",
+    "title": "What is your Favorite Holiday?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your favorite holiday?" },
+      { "speaker": "You", "text": "My favorite holiday is [holiday]. We [activity]. It is [feeling]." }
+    ],
+    "answerBanks": {
+      "holiday": [
+        { "text": "New Year" },
+        { "text": "Christmas" },
+        { "text": "Children’s Day" },
+        { "text": "Golden Week" }
+      ],
+      "activity": [
+        { "text": "have a party" },
+        { "text": "go on a trip" },
+        { "text": "get presents" },
+        { "text": "eat special food" }
+      ],
+      "feeling": [
+        { "text": "fun" },
+        { "text": "exciting" },
+        { "text": "happy" }
+      ]
+    }
+  },
+
+  "review-25-27": {
+    "order": 35,
+    "type": "review",
+    "title": "Review 25–27",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I like [season]. It is [temperature]." },
+      { "speaker": "You", "text": "I like [weather] days." },
+      { "speaker": "You", "text": "My favorite holiday is [holiday]." }
+    ],
+    "answerBanks": {
+      "season": [
+        { "text": "spring" },
+        { "text": "summer" },
+        { "text": "fall" },
+        { "text": "winter" }
+      ],
+      "temperature": [
+        { "text": "warm" },
+        { "text": "cool" }
+      ],
+      "weather": [
+        { "text": "sunny" },
+        { "text": "rainy" }
+      ],
+      "holiday": [
+        { "text": "New Year" },
+        { "text": "Christmas" }
+      ]
+    }
+  },
+
+  "28": {
+    "order": 36,
+    "type": "unit",
+    "title": "What Is Your Dream?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your dream?" },
+      { "speaker": "You", "text": "I want to [dream]. I want to [activity]. I will [action]." }
+    ],
+    "answerBanks": {
+      "dream": [
+        { "text": "be a doctor" },
+        { "text": "be a teacher" },
+        { "text": "be a soccer player" },
+        { "text": "be an artist" }
+      ],
+      "activity": [
+        { "text": "help people" },
+        { "text": "play sports" },
+        { "text": "make art" }
+      ],
+      "action": [
+        { "text": "study hard" },
+        { "text": "practice a lot" }
+      ]
+    }
+  },
+
+  "29": {
+    "order": 37,
+    "type": "unit",
+    "title": "What Is Your Treasure?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What is your treasure?" },
+      { "speaker": "You", "text": "My treasure is my [treasure]. I got it from [place]. It is [description]." }
+    ],
+    "answerBanks": {
+      "treasure": [
+        { "text": "toy" },
+        { "text": "game" },
+        { "text": "photo" },
+        { "text": "book" }
+      ],
+      "place": [
+        { "text": "my parents" },
+        { "text": "my grandparents" },
+        { "text": "my friend" }
+      ],
+      "description": [
+        { "text": "new" },
+        { "text": "old" },
+        { "text": "cute" },
+        { "text": "special" }
+      ]
+    }
+  },
+
+  "30": {
+    "order": 38,
+    "type": "unit",
+    "title": "What Do You Want For Your Birthday?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What do you want for your birthday?" },
+      { "speaker": "You", "text": "I want [gift] for my birthday. If I get it, I will [action]." }
+    ],
+    "answerBanks": {
+      "gift": [
+        { "text": "a game" },
+        { "text": "a bike" },
+        { "text": "a book" },
+        { "text": "clothes" }
+      ],
+      "action": [
+        { "text": "play with it" },
+        { "text": "use it every day" },
+        { "text": "share it with my family" }
+      ]
+    }
+  },
+
+  "review-28-30": {
+    "order": 39,
+    "type": "review",
+    "title": "Review 28–30",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I want to [dream]." },
+      { "speaker": "You", "text": "My treasure is my [treasure]." },
+      { "speaker": "You", "text": "I want [gift] for my birthday." }
+    ],
+    "answerBanks": {
+      "dream": [
+        { "text": "be a teacher" },
+        { "text": "be a soccer player" }
+      ],
+      "treasure": [
+        { "text": "toy" },
+        { "text": "book" }
+      ],
+      "gift": [
+        { "text": "a game" },
+        { "text": "a bike" }
+      ]
+    }
+  },
+
+  "31": {
+    "order": 40,
+    "type": "unit",
+    "title": "Tell Me About Your Town.",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Tell me about your town." },
+      { "speaker": "You", "text": "I live in [name]." },
+      { "speaker": "You", "text": "There is a [place]." },
+      { "speaker": "You", "text": "It is [description] and [description2]." }
+    ],
+    "answerBanks": {
+      "place": [
+        { "text": "park" },
+        { "text": "school" },
+        { "text": "library" },
+        { "text": "supermarket" }
+      ],
+      "description": [
+        { "text": "big" },
+        { "text": "small" },
+        { "text": "quiet" },
+        { "text": "busy" }
+      ],
+      "description2": [
+        { "text": "fun" },
+        { "text": "nice" },
+        { "text": "clean" }
+      ]
+    }
+  },
+
+  "32": {
+    "order": 41,
+    "type": "unit",
+    "title": "Where Is Your Favorite Place?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Where is your favorite place?" },
+      { "speaker": "You", "text": "My favorite place is [place]." },
+      { "speaker": "You", "text": "I go there [withWho]." },
+      { "speaker": "You", "text": "I like to [action] there." }
+    ],
+    "answerBanks": {
+      "place": [
+        { "text": "the park" },
+        { "text": "the library" },
+        { "text": "the mall" },
+        { "text": "the movie theater" }
+      ],
+      "withWho": [
+        { "text": "with my friends" },
+        { "text": "with my family" },
+        { "text": "by myself" }
+      ],
+      "action": [
+        { "text": "play" },
+        { "text": "read" },
+        { "text": "watch movies" }
+      ]
+    }
+  },
+
+  "33": {
+    "order": 42,
+    "type": "unit",
+    "title": "Where Do You Want To Go?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "Where do you want to go?" },
+      { "speaker": "You", "text": "I want to go to [place]." },
+      { "speaker": "You", "text": "I want to [action] there." }
+    ],
+    "answerBanks": {
+      "place": [
+        { "text": "the zoo" },
+        { "text": "the beach" },
+        { "text": "the amusement park" }
+      ],
+      "action": [
+        { "text": "see animals" },
+        { "text": "play" },
+        { "text": "have fun" }
+      ]
+    }
+  },
+
+  "review-31-33": {
+    "order": 43,
+    "type": "review",
+    "title": "Review 31–33",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I live in [name]." },
+      { "speaker": "You", "text": "My favorite place is [place]." },
+      { "speaker": "You", "text": "I want to go to [place2]." }
+    ],
+    "answerBanks": {
+      "place": [
+        { "text": "the park" },
+        { "text": "the library" }
+      ],
+      "place2": [
+        { "text": "the zoo" },
+        { "text": "the beach" }
+      ]
+    }
+  },
+
+  "34": {
+    "order": 44,
+    "type": "unit",
+    "title": "What Did You Do Yesterday?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What did you do yesterday?" },
+      { "speaker": "You", "text": "I [action] yesterday." },
+      { "speaker": "You", "text": "Then, I [action2]." },
+      { "speaker": "You", "text": "It was [feeling]." }
+    ],
+    "answerBanks": {
+      "action": [
+        { "text": "played" },
+        { "text": "studied" },
+        { "text": "watched TV" }
+      ],
+      "action2": [
+        { "text": "ate dinner" },
+        { "text": "played games" },
+        { "text": "went home" }
+      ],
+      "feeling": [
+        { "text": "fun" },
+        { "text": "busy" },
+        { "text": "tired" }
+      ]
+    }
+  },
+
+  "35": {
+    "order": 45,
+    "type": "unit",
+    "title": "What Did You Do Last Vacation?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What did you do last vacation?" },
+      { "speaker": "You", "text": "I [action] last vacation." },
+      { "speaker": "You", "text": "I also [action2]." },
+      { "speaker": "You", "text": "It was a [feeling] vacation." }
+    ],
+    "answerBanks": {
+      "action": [
+        { "text": "traveled" },
+        { "text": "played" },
+        { "text": "stayed home" }
+      ],
+      "action2": [
+        { "text": "ate good food" },
+        { "text": "played games" },
+        { "text": "watched TV" }
+      ],
+      "feeling": [
+        { "text": "fun" },
+        { "text": "nice" },
+        { "text": "boring" }
+      ]
+    }
+  },
+
+  "36": {
+    "order": 46,
+    "type": "unit",
+    "title": "What Will You Do This Weekend?",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "Coach", "text": "What will you do this weekend?" },
+      { "speaker": "You", "text": "I will [action] this weekend." },
+      { "speaker": "You", "text": "I will also [action2]." },
+      { "speaker": "You", "text": "I am [feeling]!" }
+    ],
+    "answerBanks": {
+      "action": [
+        { "text": "play" },
+        { "text": "study" },
+        { "text": "rest" }
+      ],
+      "action2": [
+        { "text": "go out" },
+        { "text": "play games" },
+        { "text": "stay home" }
+      ],
+      "feeling": [
+        { "text": "excited" },
+        { "text": "happy" },
+        { "text": "nervous" }
+      ]
+    }
+  },
+
+  "review-34-36": {
+    "order": 47,
+    "type": "review",
+    "title": "Review 34–36",
+    "youtubeId": "3DtZZsV8LZQ",
+    "script": [
+      { "speaker": "You", "text": "I [action] yesterday." },
+      { "speaker": "You", "text": "I [action2] last vacation." },
+      { "speaker": "You", "text": "I will [action3] this weekend." }
+    ],
+    "answerBanks": {
+      "action": [
+        { "text": "played" },
+        { "text": "studied" }
+      ],
+      "action2": [
+        { "text": "played" },
+        { "text": "stayed home" }
+      ],
+      "action3": [
+        { "text": "play" },
+        { "text": "study" }
+      ]
+    }
+  }
+}
+

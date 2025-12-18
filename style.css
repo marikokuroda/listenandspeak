@@ -1,0 +1,423 @@
+/* =====================================================
+   GLOBAL THEME (ESL Kids 8–11)
+===================================================== */
+:root {
+  --primary: #4FC3F7;      /* Sky blue */
+  --primary-dark: #29B6F6;
+  --accent: #FF8A65;       /* Coral */
+  --success: #81C784;      /* Green */
+  --bg: #F7FBFF;
+  --card: #FFFFFF;
+  --text: #2E3A59;
+  --soft-blue: #F1F7FF;
+  --soft-green: #F1FBF4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* =====================================================
+   TYPOGRAPHY
+===================================================== */
+h1 {
+  font-size: 2.3rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* =====================================================
+   BUTTONS (Friendly & Encouraging)
+===================================================== */
+button {
+  font-size: 1.1rem;
+  padding: 14px 26px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  font-family: inherit;
+  touch-action: manipulation;
+  transition: transform 0.15s, background 0.15s;
+}
+
+button:hover,
+button:active {
+  background: var(--primary-dark);
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: white;
+  border: 3px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background: var(--soft-blue);
+}
+
+/* =====================================================
+   UTILITIES
+===================================================== */
+.hidden {
+  display: none !important;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* =====================================================
+   INSTRUCTIONS
+===================================================== */
+.instruction-banner,
+.instruction-step {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--soft-blue);
+  border-left: 6px solid var(--primary);
+  border-radius: 16px;
+  padding: 16px 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.practice-instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.step-number {
+  width: 38px;
+  height: 38px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+/* =====================================================
+   INDEX (Unit Selection)
+===================================================== */
+.unit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.unit-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.unit-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.unit-number {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff8c42; /* friendly accent */
+  margin-bottom: 4px;
+}
+
+.unit-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.3;
+}
+
+.unit-card.review {
+  background: #f3f7ff;
+}
+
+/* =====================================================
+   VIDEO VIEW
+===================================================== */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #000;
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* =====================================================
+   SCRIPT LAYOUT
+===================================================== */
+.layout-script {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .layout-script {
+    grid-template-columns: 1fr;
+  }
+}
+
+.script-container {
+  background: var(--card);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+}
+
+/* =====================================================
+   CONVERSATION LINES (Speech Bubble Feel)
+===================================================== */
+.conversation-line {
+  background: var(--soft-blue);
+  border-radius: 18px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.speaker {
+  font-weight: 800;
+  font-size: 1.45rem;
+  color: var(--primary);
+}
+
+/* =====================================================
+   BLANKS (Answer Slots)
+===================================================== */
+.drop-blank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 130px;
+  min-height: 54px;
+  margin: 6px;
+  padding: 6px 12px;
+  border-radius: 18px;
+  border: 3px solid #90CAF9;
+  background: white;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.drop-blank.editable.filled {
+  border-color: var(--success);
+  background: var(--soft-green);
+}
+
+.drop-blank.editable.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(255,138,101,0.35);
+  transform: scale(1.08);
+}
+
+/* Input */
+.blank-input {
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+  width: 140px;
+  pointer-events: none;
+}
+
+.blank-input::placeholder {
+  color: #AAA;
+}
+
+/* Delete button */
+.delete-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #EF5350;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.drop-blank.filled .delete-btn {
+  opacity: 1;
+}
+
+/* =====================================================
+   ANSWER BANKS
+===================================================== */
+.answer-banks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.answer-group {
+  background: white;
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.toggle-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background: white;
+  color: var(--primary);
+  font-weight: 900;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 1;
+  padding: 0;
+}
+
+.answer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.answer-card {
+  background: #FFF3E0;
+  border-radius: 20px;
+  padding: 14px 12px;
+  min-width: 100px;
+  min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  gap: 8px;
+}
+
+.answer-card:hover,
+.answer-card:active {
+  transform: scale(1.1);
+}
+
+.answer-image {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.answer-word {
+  font-size: 0.95rem;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+/* =====================================================
+   PRACTICE VIEW
+===================================================== */
+.practice-script {
+  background: white;
+  border-radius: 24px;
+  padding: 26px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.15);
+  margin: 20px auto;
+  max-width: 640px;
+}
+
+.practice-script .conversation-line {
+  background: var(--soft-blue);
+  border-left: 6px solid var(--primary);
+}
+
+/* =====================================================
+   SMALL SCREENS / TABLETS
+===================================================== */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.7rem; }
+  .conversation-line { font-size: 1.2rem; }
+  .answer-card { width: 84px; height: 84px; }
+}
