@@ -480,6 +480,62 @@
     }
   },
 
+"presentation-7-12": {
+  "order": 16,
+  "type": "presentation",
+  "title": "Presentation 7–12",
+  "instructions": "Choose one topic. Say 3 sentences.",
+  "topics": [
+    {
+      "id": "today",
+      "title": "About Today",
+      "script": [
+        { "speaker": "You", "text": "Today is [day]." },
+        { "speaker": "You", "text": "The weather is [weather]." },
+        { "speaker": "You", "text": "I feel [feeling]." }
+      ],
+      "answerBanks": {
+        "day": [
+          { "text": "Monday" },
+          { "text": "Tuesday" },
+          { "text": "Wednesday" }
+        ],
+        "weather": [
+          { "text": "sunny" },
+          { "text": "rainy" },
+          { "text": "cloudy" }
+        ],
+        "feeling": [
+          { "text": "happy" },
+          { "text": "tired" },
+          { "text": "excited" }
+        ]
+      }
+    },
+    {
+      "id": "school-days",
+      "title": "My School Days",
+      "script": [
+        { "speaker": "You", "text": "I go to school at [time]." },
+        { "speaker": "You", "text": "My favorite subject is [subject]." },
+        { "speaker": "You", "text": "I like my school." }
+      ],
+      "answerBanks": {
+        "time": [
+          { "text": "8 o'clock" },
+          { "text": "9 o'clock" }
+        ],
+        "subject": [
+          { "text": "math" },
+          { "text": "English" },
+          { "text": "PE" }
+        ]
+      }
+    }
+  ]
+},
+
+
 "13": {
   "order": 16,  
   "type": "unit",

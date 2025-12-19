@@ -12,10 +12,12 @@ let selectedBlank = null;
 document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- DOM elements ----------
+  
   const unitGrid = document.getElementById('unitGrid');
   const scriptBox = document.getElementById('scriptBox');
   const answerBanks = document.getElementById('answerBanks');
   const practiceScript = document.getElementById('practiceScript');
+
 
   const videoTitle = document.getElementById('videoTitle');
   const videoFrame = document.getElementById('videoFrame');
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const practiceTitle = document.getElementById('practiceTitle');
 
   const btnConfirm = document.getElementById('btnConfirm');
+  const btnScriptBackVideo = document.getElementById('btnScriptBackVideo');
 
   // ======================================================
   // Load units
@@ -68,11 +71,32 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function openUnit(unitNumber) {
-    currentUnit = unitNumber;
     currentAnswers = {};
     selectedBlank = null;
 
     const unit = units[unitNumber];
+
+    // PRESENTATION UNITS
+    if (unit.type === 'presentation') {
+      btnScriptBackVideo.classList.add('hidden');
+      openPresentation(unit);
+      return;
+    }
+
+    // REVIEW UNITS
+    if (unit.type === 'review') {
+      btnScriptBackVideo.classList.add('hidden');
+      currentUnit = unit;
+      generateEditableScript(unit);
+      showView('script');
+      return;
+    }
+
+    // NORMAL UNITS
+    btnScriptBackVideo.classList.remove('hidden');
+
+    currentUnit = unit;
+
     videoTitle.textContent = `Unit ${unitNumber} – ${unit.title}`;
     scriptTitle.textContent = `Unit ${unitNumber} – Your Conversation`;
     practiceTitle.textContent = `Unit ${unitNumber} – Practice`;
@@ -81,6 +105,47 @@ document.addEventListener('DOMContentLoaded', () => {
     generateEditableScript(unit);
     showView('video');
   }
+
+
+  function openPresentation(unit) {
+    const title = document.getElementById('presentationTitle');
+    const instructions = document.getElementById('presentationInstructions');
+    const grid = document.getElementById('topicGrid');
+
+    title.textContent = unit.title;
+    instructions.textContent = unit.instructions || '';
+    grid.innerHTML = '';
+
+    unit.topics.forEach(topic => {
+      const card = document.createElement('div');
+      card.className = 'unit-card';
+      card.innerHTML = `
+        <div class="unit-title">${topic.title}</div>
+      `;
+
+      card.onclick = () => {
+        btnScriptBackVideo.classList.add('hidden');
+
+        currentUnit = {
+          type: 'presentation-topic',
+          title: topic.title,
+          script: topic.script,
+          answerBanks: topic.answerBanks
+        };
+
+        scriptTitle.textContent = topic.title;
+        practiceTitle.textContent = topic.title;
+
+        generateEditableScript(currentUnit);
+        showView('script');
+      };
+
+      grid.appendChild(card);
+    });
+
+  showView('presentation-topic');
+}
+
 
   // ======================================================
   // SCRIPT (editable)
@@ -329,9 +394,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // CONFIRM
   // ======================================================
   btnConfirm.onclick = () => {
-    generateReadOnlyScript(units[currentUnit]);
+    generateReadOnlyScript(currentUnit);
     showView('practice');
   };
+
 
   // ======================================================
   // NAV BUTTONS
@@ -340,10 +406,12 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btnVideoNext').onclick = () => showView('script');
   document.getElementById('btnScriptBackVideo').onclick = () => showView('video');
   document.getElementById('btnScriptBackIndex').onclick = () => showView('index');
+  document.getElementById('btnTopicBackIndex').onclick = () => showView('index');
+
 
   document.getElementById('btnPracticeBackScript').onclick = () => {
     selectedBlank = null;
-    generateEditableScript(units[currentUnit]); // ⭐ answers restored
+    generateEditableScript(currentUnit); // ⭐ answers restored
     showView('script');
   };
   
