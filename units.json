@@ -365,7 +365,11 @@
         { "text": "yellow" },
         { "text": "green" },
         { "text": "black" },
-        { "text": "white" }
+        { "text": "white" },
+        { "text": "pink" },
+        { "text": "purple" },
+        { "text": "orange" },
+        { "text": "brown" }
       ],
       "clothes": [
         { "text": "shirt" },
@@ -458,7 +462,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What time do you wake up?" },
-      { "speaker": "You", "text": "I wake up at [number] o’clock." }
+      { "speaker": "You", "text": "I wake up at [time] (o'clock)." }
     ],
     "answerBanks": {}
   },
@@ -498,7 +502,8 @@
         { "text": "science" },
         { "text": "music" },
         { "text": "art" },
-        { "text": "PE" }
+        { "text": "PE" },
+        { "text": "social studies" }
       ]
     }
   },
@@ -517,12 +522,10 @@
     "answerBanks": {
       "transportation": [
         { "text": "walk" },
-        { "text": "ride the train" },
         { "text": "ride the bus" },
+        { "text": "ride the train" },
         { "text": "go by car" },
-        { "text": "ride my bike" },
-        { "text": "take a taxi" },
-        { "text": "ride my scooter" }
+        { "text": "ride my bike" }
       ],
       "subject": [
         { "text": "math" },
@@ -607,13 +610,11 @@
       ],
       "answerBanks": {
         "transportation": [
-          { "text": "walk" },
-          { "text": "ride the train" },
+          {"text": "walk" },
           { "text": "ride the bus" },
+          { "text": "ride the train" },
           { "text": "go by car" },
-          { "text": "ride my bike" },
-          { "text": "take a taxi" },
-          { "text": "ride my scooter" }
+          { "text": "ride my bike" }
         ],
       "subject": [
           { "text": "math" },
@@ -649,7 +650,8 @@
         { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
-        { "text": "scissors" }
+        { "text": "scissors" },
+        { "text": "glue" }
       ]
     }
   },
@@ -669,7 +671,7 @@
         { "text": "pen" },
         { "text": "eraser" },
         { "text": "ruler" },
-        { "text": "sharpener" },
+        { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
         { "text": "scissors" },
@@ -699,20 +701,26 @@
     ],
     "answerBanks": {
       "item": [
+        { "text": "pencil" },
+        { "text": "pen" },
+        { "text": "eraser" },
+        { "text": "ruler" },
+        { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
-        { "text": "pencil" }
+        { "text": "scissors" },
+        { "text": "glue" }
       ],
       "preposition": [
         { "text": "in" },
         { "text": "on" },
         { "text": "under" },
-        { "text": "next to" }
-      ],
-      "place": [
-        { "text": "my desk" },
-        { "text": "my bag" },
-        { "text": "the table" }
+        { "text": "next to" },
+        { "text": "behind" },
+        { "text": "in front of" },
+        { "text": "between" },
+        { "text": "near" },
+        { "text": "inside" }
       ]
     }
   },
@@ -732,23 +740,36 @@
     ],
     "answerBanks": {
       "item": [
+        { "text": "pencil" },
+        { "text": "pen" },
+        { "text": "eraser" },
+        { "text": "ruler" },
+        { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
-        { "text": "pencil" }
+        { "text": "scissors" },
+        { "text": "glue" }
       ],
       "description": [
         { "text": "big" },
         { "text": "small" },
-        { "text": "new" }
+        { "text": "long" },
+        { "text": "short" },
+        { "text": "round" },
+        { "text": "square" },
+        { "text": "new" },
+        { "text": "old" }
       ],
       "preposition": [
         { "text": "in" },
         { "text": "on" },
-        { "text": "under" }
-      ],
-      "place": [
-        { "text": "my desk" },
-        { "text": "my bag" }
+        { "text": "under" },
+        { "text": "next to" },
+        { "text": "behind" },
+        { "text": "in front of" },
+        { "text": "between" },
+        { "text": "near" },
+        { "text": "inside" }
       ]
     }
   },
@@ -764,16 +785,19 @@
     ],
     "answerBanks": {
       "food": [
-        { "text": "rice" },
-        { "text": "bread" },
-        { "text": "chicken" },
-        { "text": "noodles" },
-        { "text": "pizza" }
+        { "text": "curry" },
+        { "text": "fried chicken" },
+        { "text": "ramen" },
+        { "text": "pizza" },
+        { "text": "hamburger" },
+        { "text": "sushi" }
       ],
       "taste": [
-        { "text": "good" },
         { "text": "sweet" },
-        { "text": "tasty" }
+        { "text": "sour" },
+        { "text": "spicy" },
+        { "text": "yummy" },
+        { "text": "crunchy" }
       ]
     }
   },
@@ -793,13 +817,21 @@
         { "text": "cats" },
         { "text": "birds" },
         { "text": "fish" },
-        { "text": "rabbits" }
+        { "text": "rabbits" },
+        { "text": "turtles" },
+        { "text": "pandas" },
+        { "text": "tigers" },
+        { "text": "lions" },
+        { "text": "penguins" }
       ],
       "description": [
         { "text": "cute" },
+        { "text": "fluffy" },
+        { "text": "cool" },
+        { "text": "scary" },
+        { "text": "interesting" },
         { "text": "big" },
-        { "text": "small" },
-        { "text": "fun" }
+        { "text": "small" }
       ]
     }
   },
@@ -815,15 +847,24 @@
     ],
     "answerBanks": {
       "activity": [
+        { "text": "play soccer" },
         { "text": "play games" },
+        { "text": "study" },
         { "text": "read books" },
         { "text": "watch TV" },
-        { "text": "draw" }
+        { "text": "draw" },
+        { "text": "dance" },
+        { "text": "talk" },
+        { "text": "eat snacks" }
       ],
       "withWho": [
         { "text": "with my friends" },
-        { "text": "with my family" },
-        { "text": "by myself" }
+        { "text": "by myself" },
+        { "text": "with my mom" },
+        { "text": "with my dad" },
+        { "text": "with my sister" },
+        { "text": "with my brother" },
+        { "text": "with my family" }
       ]
     }
   },
@@ -840,22 +881,43 @@
     ],
     "answerBanks": {
       "food": [
-        { "text": "rice" },
-        { "text": "bread" },
-        { "text": "pizza" }
+        { "text": "curry" },
+        { "text": "fried chicken" },
+        { "text": "ramen" },
+        { "text": "pizza" },
+        { "text": "hamburger" },
+        { "text": "sushi" }
       ],
       "animal": [
         { "text": "dogs" },
         { "text": "cats" },
-        { "text": "fish" }
+        { "text": "birds" },
+        { "text": "fish" },
+        { "text": "rabbits" },
+        { "text": "turtles" },
+        { "text": "pandas" },
+        { "text": "tigers" },
+        { "text": "lions" },
+        { "text": "penguins" }
       ],
       "activity": [
+        { "text": "play soccer" },
         { "text": "play games" },
+        { "text": "study" },
         { "text": "read books" },
-        { "text": "watch TV" }
+        { "text": "watch TV" },
+        { "text": "draw" },
+        { "text": "dance" },
+        { "text": "talk" },
+        { "text": "eat snacks" }
       ],
       "withWho": [
         { "text": "with my friends" },
+        { "text": "by myself" },
+        { "text": "with my mom" },
+        { "text": "with my dad" },
+        { "text": "with my sister" },
+        { "text": "with my brother" },
         { "text": "with my family" }
       ]
     }
@@ -881,7 +943,7 @@
             { "text": "pen" },
             { "text": "eraser" },
             { "text": "ruler" },
-            { "text": "sharpener" },
+            { "text": "notebook" },
             { "text": "book" },
             { "text": "bag" },
             { "text": "scissors" },
@@ -903,28 +965,50 @@
         "id": "favorite-things",
         "title": "My Favorite Things",
         "script": [
-          { "speaker": "You", "text": "I [transportation] to school." },
-          { "speaker": "You", "text": "My favorite subject is [subject]." },
-          { "speaker": "You", "text": "I like my school." }
+          { "speaker": "You", "text": "My favorite food is [food]." },
+          { "speaker": "You", "text": "My favorite animal is [animal]." },
+          { "speaker": "You", "text": "I like to [activity] [withWho]." }
         ],
         "answerBanks": {
-          "transportation": [
-            { "text": "walk" },
-            { "text": "ride the train" },
-            { "text": "ride the bus" },
-            { "text": "go by car" },
-            { "text": "ride my bike" },
-            { "text": "take a taxi" },
-            { "text": "ride my scooter" }
+          "food": [
+            { "text": "curry" },
+            { "text": "fried chicken" },
+            { "text": "ramen" },
+            { "text": "pizza" },
+            { "text": "hamburger" },
+            { "text": "sushi" }
           ],
-        "subject": [
-            { "text": "math" },
-            { "text": "English" },
-            { "text": "science" },
-            { "text": "music" },
-            { "text": "art" },
-            { "text": "PE" },
-            { "text": "social studies" }
+        "animal": [
+            { "text": "dogs" },
+            { "text": "cats" },
+            { "text": "birds" },
+            { "text": "fish" },
+            { "text": "rabbits" },
+            { "text": "turtles" },
+            { "text": "pandas" },
+            { "text": "tigers" },
+            { "text": "lions" },
+            { "text": "penguins" }
+          ],
+            "activity": [
+            { "text": "play soccer" },
+            { "text": "play games" },
+            { "text": "study" },
+            { "text": "read books" },
+            { "text": "watch TV" },
+            { "text": "draw" },
+            { "text": "dance" },
+            { "text": "talk" },
+            { "text": "eat snacks" }
+          ],
+          "withWho": [
+            { "text": "with my friends" },
+            { "text": "by myself" },
+            { "text": "with my mom" },
+            { "text": "with my dad" },
+            { "text": "with my sister" },
+            { "text": "with my brother" },
+            { "text": "with my family" }
           ]
         }
       }
@@ -945,10 +1029,10 @@
     "answerBanks": {
       "action": [
         { "text": "swim" },
+        { "text": "climb a tree" },
         { "text": "dance" },
         { "text": "ride a bike" },
-        { "text": "play soccer" },
-        { "text": "sing" }
+        { "text": "play soccer" }
       ]
     }
   },
@@ -960,7 +1044,8 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What are you good at?" },
-      { "speaker": "You", "text": "I’m good at [activity]. I do it [frequency]." }
+      { "speaker": "You", "text": "I’m good at [activity]." },
+      { "speaker": "You", "text": "I do it [frequency]." }
     ],
     "answerBanks": {
       "activity": [
@@ -989,7 +1074,8 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What sports do you play?" },
-      { "speaker": "You", "text": "I play [sport]. I play it [withWho]." }
+      { "speaker": "You", "text": "I play [sport]." },
+      { "speaker": "You", "text": "I play it [withWho]." }
     ],
     "answerBanks": {
       "sport": [
@@ -1020,7 +1106,8 @@
     "script": [
       { "speaker": "You", "text": "I’m good at [activity]." },
       { "speaker": "You", "text": "I do it [frequency]." },
-      { "speaker": "You", "text": "I also play [sport]. I play it [withWho]." }
+      { "speaker": "You", "text": "I also play [sport]." },
+      { "speaker": "You", "text": "I play it [withWho]." }
     ],
     "answerBanks": {
       "activity": [
@@ -1035,16 +1122,26 @@
       ],
       "frequency": [
         { "text": "every day" },
+        { "text": "every week" },
+        { "text": "a lot" },
         { "text": "sometimes" }
       ],
       "sport": [
         { "text": "soccer" },
         { "text": "baseball" },
-        { "text": "basketball" }
+        { "text": "basketball" },
+        { "text": "tennis" },
+        { "text": "swimming" },
+        { "text": "running" },
+        { "text": "badminton" },
+        { "text": "table tennis" },
+        { "text": "volleyball" },
+        { "text": "dodgeball" }
       ],
       "withWho": [
         { "text": "with my friends" },
-        { "text": "with my family" }
+        { "text": "with my family" },
+        { "text": "by myself" }
       ]
     }
   },
@@ -1056,7 +1153,8 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Who do you live with?" },
-      { "speaker": "You", "text": "I live with my [family]. They are [personality]." }
+      { "speaker": "You", "text": "I live with my [family]." },
+      { "speaker": "You", "text": "They are [personality]." }
     ],
     "answerBanks": {
       "family": [
@@ -1070,8 +1168,9 @@
       "personality": [
         { "text": "kind" },
         { "text": "funny" },
-        { "text": "nice" },
-        { "text": "smart" }
+        { "text": "smart" },
+        { "text": "shy" },
+        { "text": "calm" }
       ]
     }
   },
@@ -1083,14 +1182,18 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you do with your family?" },
-      { "speaker": "You", "text": "We [activity] together." }
+      { "speaker": "You", "text": "We [activity] together." },
+      { "speaker": "You", "text": "We [activity] together, too." }
     ],
     "answerBanks": {
       "activity": [
+        { "text": "go shopping" },
+        { "text": "cook" },
+        { "text": "clean" },
+        { "text": "eat out" },
         { "text": "watch TV" },
         { "text": "play games" },
-        { "text": "go shopping" },
-        { "text": "eat together" }
+        { "text": "travel" }
       ]
     }
   },
@@ -1102,20 +1205,31 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you do at home?" },
-      { "speaker": "You", "text": "I [activity] at home. I do it [when] [time]." }
+      { "speaker": "You", "text": "I [activity] at home." },
+      { "speaker": "You", "text": "I do it [when] [time]." }
     ],
     "answerBanks": {
       "activity": [
-        { "text": "do homework" },
-        { "text": "clean my room" },
         { "text": "wash dishes" },
-        { "text": "watch TV" }
+        { "text": "take out the trash" },
+        { "text": "wash dishes" },
+        { "text": "clean my room" },
+        { "text": "vacuum" },
+        { "text": "set the table" },
+        { "text": "fold clothes" },
+        { "text": "water the plants" },
+        { "text": "feed my pets" },
+        { "text": "watch TV" },
+        { "text": "do homework" }
       ],
       "when": [
         { "text": "before" },
-        { "text": "after" }
+        { "text": "after" },
+        { "text": "during" }
       ],
       "time": [
+        { "text": "breakfast" },
+        { "text": "lunch" },
         { "text": "dinner" },
         { "text": "school" },
         { "text": "bedtime" }
@@ -1137,15 +1251,32 @@
       "family": [
         { "text": "mother" },
         { "text": "father" },
-        { "text": "brother" }
+        { "text": "brother" },
+        { "text": "sister" },
+        { "text": "grandma" },
+        { "text": "grandpa" }
       ],
       "activity": [
+        { "text": "go shopping" },
+        { "text": "cook" },
+        { "text": "clean" },
+        { "text": "eat out" },
         { "text": "watch TV" },
-        { "text": "play games" }
+        { "text": "play games" },
+        { "text": "travel" }
       ],
       "activity2": [
-        { "text": "do homework" },
-        { "text": "clean my room" }
+        { "text": "wash dishes" },
+        { "text": "take out the trash" },
+        { "text": "wash dishes" },
+        { "text": "clean my room" },
+        { "text": "vacuum" },
+        { "text": "set the table" },
+        { "text": "fold clothes" },
+        { "text": "water the plants" },
+        { "text": "feed my pets" },
+        { "text": "watch TV" },
+        { "text": "do homework" }
       ]
     }
   },
@@ -1208,15 +1339,32 @@
           "family": [
             { "text": "mother" },
             { "text": "father" },
-            { "text": "brother" }
+            { "text": "brother" },
+            { "text": "sister" },
+            { "text": "grandma" },
+            { "text": "grandpa" }
           ],
           "activity": [
+            { "text": "go shopping" },
+            { "text": "cook" },
+            { "text": "clean" },
+            { "text": "eat out" },
             { "text": "watch TV" },
-            { "text": "play games" }
+            { "text": "play games" },
+            { "text": "travel" }
           ],
           "activity2": [
-            { "text": "do homework" },
-            { "text": "clean my room" }
+            { "text": "wash dishes" },
+            { "text": "take out the trash" },
+            { "text": "wash dishes" },
+            { "text": "clean my room" },
+            { "text": "vacuum" },
+            { "text": "set the table" },
+            { "text": "fold clothes" },
+            { "text": "water the plants" },
+            { "text": "feed my pets" },
+            { "text": "watch TV" },
+            { "text": "do homework" }
           ]
         }
       }
@@ -1230,7 +1378,9 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What season do you like?" },
-      { "speaker": "You", "text": "I like [season]. It is [temperature]. I can [activity]." }
+      { "speaker": "You", "text": "I like [season]. It is [temperature]. I can [activity]." },
+      { "speaker": "You", "text": "It is [temperature]." },
+      { "speaker": "You", "text": "I can [activity]." }
     ],
     "answerBanks": {
       "season": [
@@ -1246,10 +1396,10 @@
         { "text": "cold" }
       ],
       "activity": [
+        { "text": "build a snowman" },
         { "text": "see flowers" },
         { "text": "go swimming" },
-        { "text": "play outside" },
-        { "text": "play in the snow" }
+        { "text": "go hiking" }
       ]
     }
   },
@@ -1261,7 +1411,9 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite weather?" },
-      { "speaker": "You", "text": "I like [weather] days. I can [activity]. It makes me feel [feeling]." }
+      { "speaker": "You", "text": "I like [weather] days." },
+      { "speaker": "You", "text": "I can [activity]." },
+      { "speaker": "You", "text": "It makes me feel [feeling]." }
     ],
     "answerBanks": {
       "weather": [
@@ -1269,13 +1421,16 @@
         { "text": "rainy" },
         { "text": "cloudy" },
         { "text": "snowy" },
-        { "text": "windy" }
+        { "text": "windy" },
+        { "text": "stormy" }
       ],
       "activity": [
         { "text": "play soccer" },
         { "text": "go outside" },
         { "text": "read books" },
-        { "text": "play games" }
+        { "text": "play games" },
+        { "text": "build a snowman" },
+        { "text": "have a picnic" }
       ],
       "feeling": [
         { "text": "happy" },
@@ -1302,10 +1457,12 @@
         { "text": "Golden Week" }
       ],
       "activity": [
+        { "text": "go on vacation" },
+        { "text": "eat special food" },
+        { "text": "go to a festival" },
         { "text": "have a party" },
-        { "text": "go on a trip" },
-        { "text": "get presents" },
-        { "text": "eat special food" }
+        { "text": "dress up" },
+        { "text": "get presents" }
       ],
       "feeling": [
         { "text": "fun" },
@@ -1334,15 +1491,23 @@
       ],
       "temperature": [
         { "text": "warm" },
-        { "text": "cool" }
+        { "text": "hot" },
+        { "text": "cool" },
+        { "text": "cold" }
       ],
       "weather": [
         { "text": "sunny" },
-        { "text": "rainy" }
+        { "text": "rainy" },
+        { "text": "cloudy" },
+        { "text": "snowy" },
+        { "text": "windy" },
+        { "text": "stormy" }
       ],
       "holiday": [
         { "text": "New Year" },
-        { "text": "Christmas" }
+        { "text": "Christmas" },
+        { "text": "Children’s Day" },
+        { "text": "Golden Week" }
       ]
     }
   },
@@ -1354,23 +1519,27 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your dream?" },
-      { "speaker": "You", "text": "I want to [dream]. I want to [activity]. I will [action]." }
+      { "speaker": "You", "text": "I want to [dream]. I want to [activity]. I have to [action]." }
     ],
     "answerBanks": {
       "dream": [
         { "text": "be a doctor" },
         { "text": "be a teacher" },
         { "text": "be a soccer player" },
-        { "text": "be an artist" }
+        { "text": "be an artist" },
+        { "text": "be an pilot" },
+        { "text": "travel the world" }
       ],
       "activity": [
         { "text": "help people" },
-        { "text": "play sports" },
-        { "text": "make art" }
+        { "text": "win a medal" },
+        { "text": "become rich" },
+        { "text": "make friends" }
       ],
       "action": [
         { "text": "study hard" },
-        { "text": "practice a lot" }
+        { "text": "practice a lot" },
+        { "text": "save money" }
       ]
     }
   },
@@ -1386,20 +1555,29 @@
     ],
     "answerBanks": {
       "treasure": [
-        { "text": "toy" },
         { "text": "game" },
-        { "text": "photo" },
-        { "text": "book" }
+        { "text": "toy" },
+        { "text": "doll" },
+        { "text": "photo album" },
+        { "text": "necklace" },
+        { "text": "ring" },
+        { "text": "bracelet" },
+        { "text": "computer" },
+        { "text": "smartphone" }
       ],
       "place": [
         { "text": "my parents" },
         { "text": "my grandparents" },
-        { "text": "my friend" }
+        { "text": "my friend" },
+        { "text": "the store" }
       ],
       "description": [
         { "text": "new" },
         { "text": "old" },
         { "text": "cute" },
+        { "text": "big" },
+        { "text": "small" },
+        { "text": "beautiful" },
         { "text": "special" }
       ]
     }
@@ -1418,8 +1596,11 @@
       "gift": [
         { "text": "a game" },
         { "text": "a bike" },
+        { "text": "a smartphone" },
+        { "text": "a tablet" },
         { "text": "a book" },
-        { "text": "clothes" }
+        { "text": "clothes" },
+        { "text": "money" }
       ],
       "action": [
         { "text": "play with it" },
@@ -1441,16 +1622,32 @@
     ],
     "answerBanks": {
       "dream": [
+        { "text": "be a doctor" },
         { "text": "be a teacher" },
-        { "text": "be a soccer player" }
+        { "text": "be a soccer player" },
+        { "text": "be an artist" },
+        { "text": "be an pilot" },
+        { "text": "travel the world" }
       ],
       "treasure": [
+        { "text": "game" },
         { "text": "toy" },
-        { "text": "book" }
+        { "text": "doll" },
+        { "text": "photo album" },
+        { "text": "necklace" },
+        { "text": "ring" },
+        { "text": "bracelet" },
+        { "text": "computer" },
+        { "text": "smartphone" }
       ],
       "gift": [
         { "text": "a game" },
-        { "text": "a bike" }
+        { "text": "a bike" },
+        { "text": "a smartphone" },
+        { "text": "a tablet" },
+        { "text": "a book" },
+        { "text": "clothes" },
+        { "text": "money" }
       ]
     }
   },
@@ -1477,15 +1674,23 @@
           ],
           "temperature": [
             { "text": "warm" },
-            { "text": "cool" }
+            { "text": "hot" },
+            { "text": "cool" },
+            { "text": "cold" }
           ],
           "weather": [
             { "text": "sunny" },
-            { "text": "rainy" }
+            { "text": "rainy" },
+            { "text": "cloudy" },
+            { "text": "snowy" },
+            { "text": "windy" },
+            { "text": "stormy" }
           ],
           "holiday": [
             { "text": "New Year" },
-            { "text": "Christmas" }
+            { "text": "Christmas" },
+            { "text": "Children’s Day" },
+            { "text": "Golden Week" }
           ]
         }
       },
@@ -1499,16 +1704,32 @@
         ],
         "answerBanks": {
           "dream": [
+            { "text": "be a doctor" },
             { "text": "be a teacher" },
-            { "text": "be a soccer player" }
+            { "text": "be a soccer player" },
+            { "text": "be an artist" },
+            { "text": "be an pilot" },
+            { "text": "travel the world" }
           ],
           "treasure": [
+            { "text": "game" },
             { "text": "toy" },
-            { "text": "book" }
+            { "text": "doll" },
+            { "text": "photo album" },
+            { "text": "necklace" },
+            { "text": "ring" },
+            { "text": "bracelet" },
+            { "text": "computer" },
+            { "text": "smartphone" }
           ],
           "gift": [
             { "text": "a game" },
-            { "text": "a bike" }
+            { "text": "a bike" },
+            { "text": "a smartphone" },
+            { "text": "a tablet" },
+            { "text": "a book" },
+            { "text": "clothes" },
+            { "text": "money" }
           ]
         }
       }
@@ -1518,10 +1739,10 @@
   "31": {
     "order": 46,
     "type": "unit",
-    "title": "Tell Me About Your Town.",
+    "title": "Where Do You Live?",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
-      { "speaker": "Coach", "text": "Tell me about your town." },
+      { "speaker": "Coach", "text": "Where do you live?" },
       { "speaker": "You", "text": "I live in [name]." },
       { "speaker": "You", "text": "There is a [place]." },
       { "speaker": "You", "text": "It is [description] and [description2]." }
@@ -1531,17 +1752,21 @@
         { "text": "park" },
         { "text": "school" },
         { "text": "library" },
-        { "text": "supermarket" }
+        { "text": "station" },
+        { "text": "supermarket" },
+        { "text": "hospital" },
+        { "text": "restaurant" }
       ],
       "description": [
         { "text": "big" },
         { "text": "small" },
         { "text": "quiet" },
-        { "text": "busy" }
+        { "text": "noisy" }
       ],
       "description2": [
         { "text": "fun" },
         { "text": "nice" },
+        { "text": "busy" },
         { "text": "clean" }
       ]
     }
@@ -1554,26 +1779,22 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Where is your favorite place?" },
-      { "speaker": "You", "text": "My favorite place is [place]." },
-      { "speaker": "You", "text": "I go there [withWho]." },
+      { "speaker": "You", "text": "My favorite place is [favorite place]." },
+      { "speaker": "You", "text": "I go there [with who?]." },
       { "speaker": "You", "text": "I like to [action] there." }
     ],
     "answerBanks": {
-      "place": [
-        { "text": "the park" },
-        { "text": "the library" },
+      "favorite place": [
+        { "text": "the amusement park" },
         { "text": "the mall" },
+        { "text": "the museum" },
+        { "text": "the library" },
         { "text": "the movie theater" }
       ],
-      "withWho": [
+      "with who?": [
+        { "text": "by myself" },
         { "text": "with my friends" },
-        { "text": "with my family" },
-        { "text": "by myself" }
-      ],
-      "action": [
-        { "text": "play" },
-        { "text": "read" },
-        { "text": "watch movies" }
+        { "text": "with my family" }
       ]
     }
   },
@@ -1589,16 +1810,6 @@
       { "speaker": "You", "text": "I want to [action] there." }
     ],
     "answerBanks": {
-      "place": [
-        { "text": "the zoo" },
-        { "text": "the beach" },
-        { "text": "the amusement park" }
-      ],
-      "action": [
-        { "text": "see animals" },
-        { "text": "play" },
-        { "text": "have fun" }
-      ]
     }
   },
 
@@ -1609,17 +1820,16 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I live in [name]." },
-      { "speaker": "You", "text": "My favorite place is [place]." },
+      { "speaker": "You", "text": "My favorite place is [favorite place]." },
       { "speaker": "You", "text": "I want to go to [place2]." }
     ],
     "answerBanks": {
-      "place": [
-        { "text": "the park" },
-        { "text": "the library" }
-      ],
-      "place2": [
-        { "text": "the zoo" },
-        { "text": "the beach" }
+      "favorite place": [
+        { "text": "the amusement park" },
+        { "text": "the mall" },
+        { "text": "the museum" },
+        { "text": "the library" },
+        { "text": "the movie theater" }
       ]
     }
   },
@@ -1636,20 +1846,11 @@
       { "speaker": "You", "text": "It was [feeling]." }
     ],
     "answerBanks": {
-      "action": [
-        { "text": "played" },
-        { "text": "studied" },
-        { "text": "watched TV" }
-      ],
-      "action2": [
-        { "text": "ate dinner" },
-        { "text": "played games" },
-        { "text": "went home" }
-      ],
       "feeling": [
         { "text": "fun" },
         { "text": "busy" },
-        { "text": "tired" }
+        { "text": "tiring" },
+        { "text": "exciting" }
       ]
     }
   },
@@ -1666,21 +1867,6 @@
       { "speaker": "You", "text": "It was a [feeling] vacation." }
     ],
     "answerBanks": {
-      "action": [
-        { "text": "traveled" },
-        { "text": "played" },
-        { "text": "stayed home" }
-      ],
-      "action2": [
-        { "text": "ate good food" },
-        { "text": "played games" },
-        { "text": "watched TV" }
-      ],
-      "feeling": [
-        { "text": "fun" },
-        { "text": "nice" },
-        { "text": "boring" }
-      ]
     }
   },
 
@@ -1696,21 +1882,6 @@
       { "speaker": "You", "text": "I am [feeling]!" }
     ],
     "answerBanks": {
-      "action": [
-        { "text": "play" },
-        { "text": "study" },
-        { "text": "rest" }
-      ],
-      "action2": [
-        { "text": "go out" },
-        { "text": "play games" },
-        { "text": "stay home" }
-      ],
-      "feeling": [
-        { "text": "excited" },
-        { "text": "happy" },
-        { "text": "nervous" }
-      ]
     }
   },
 
@@ -1725,18 +1896,6 @@
       { "speaker": "You", "text": "I will [action3] this weekend." }
     ],
     "answerBanks": {
-      "action": [
-        { "text": "played" },
-        { "text": "studied" }
-      ],
-      "action2": [
-        { "text": "played" },
-        { "text": "stayed home" }
-      ],
-      "action3": [
-        { "text": "play" },
-        { "text": "study" }
-      ]
     }
   },
 
@@ -1751,17 +1910,16 @@
         "title": "My Town and Places",
         "script": [
           { "speaker": "You", "text": "I live in [name]." },
-          { "speaker": "You", "text": "My favorite place is [place]." },
+          { "speaker": "You", "text": "My favorite place is [favorite place]." },
           { "speaker": "You", "text": "I want to go to [place2]." }
         ],
         "answerBanks": {
-          "place": [
-            { "text": "the park" },
-            { "text": "the library" }
-          ],
-          "place2": [
-            { "text": "the zoo" },
-            { "text": "the beach" }
+          "favorite place": [
+             { "text": "the amusement park" },
+            { "text": "the mall" },
+            { "text": "the museum" },
+            { "text": "the library" },
+            { "text": "the movie theater" }
           ]
         }
       },
@@ -1774,18 +1932,6 @@
           { "speaker": "You", "text": "I will [action3] this weekend." }
         ],
         "answerBanks": {
-          "action": [
-            { "text": "played" },
-            { "text": "studied" }
-          ],
-          "action2": [
-            { "text": "played" },
-            { "text": "stayed home" }
-          ],
-          "action3": [
-            { "text": "play" },
-            { "text": "study" }
-          ]
         }
       }
     ]
