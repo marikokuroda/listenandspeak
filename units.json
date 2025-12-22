@@ -3,7 +3,7 @@
     "order": 1,
     "type": "unit",
     "title": "What's Your Name?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "1JeDJLZeTbY",
     "script": [
       { "speaker": "Coach", "text": "Hello! What’s your name?" },
       { "speaker": "You", "text": "My name is [name]. What’s your name?" },
@@ -16,7 +16,7 @@
     "order": 2,
     "type": "unit",
     "title": "How Old Are You?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Hi! How old are you?" },
       { "speaker": "You", "text": "I’m [age] years old." }
@@ -27,7 +27,7 @@
     "order": 3,
     "type": "unit",
     "title": "How Are You Today?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Hi! How are you today?" },
       { "speaker": "You", "text": "I’m [feeling]." }
@@ -50,7 +50,7 @@
     "order": 4,
     "type": "review",
     "title": "Review 1–3",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Hello! What’s your name?" },
       { "speaker": "You", "text": "My name is [name]." },
@@ -77,7 +77,7 @@
     "order": 5,
     "type": "unit",
     "title": "What Grade Are You In?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Hi! What grade are you in?" },
       { "speaker": "You", "text": "I’m in [grade] grade." }
@@ -104,7 +104,7 @@
     "order": 6,
     "type": "unit",
     "title": "When Is Your Birthday?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "When is your birthday?" },
       { "speaker": "You", "text": "My birthday is [month] [date]." }
@@ -131,7 +131,7 @@
     "order": 7,
     "type": "unit",
     "title": "What Color Do You Like?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What color do you like?" },
       { "speaker": "You", "text": "I like [color]." }
@@ -156,7 +156,7 @@
     "order": 8,
     "type": "review",
     "title": "Review 4–6",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       {
         "speaker": "You",
@@ -294,7 +294,7 @@
     "order": 10,
     "type": "unit",
     "title": "What Day Is It Today?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What day is it today?" },
       { "speaker": "You", "text": "It’s [day], [month] [number]." }
@@ -330,7 +330,7 @@
     "order": 11,
     "type": "unit",
     "title": "What’s the Weather Today?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What’s the weather today?" },
       { "speaker": "You", "text": "It’s [weather]." }
@@ -353,7 +353,7 @@
     "order": 12,
     "type": "unit",
     "title": "What Are You Wearing?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What are you wearing?" },
       { "speaker": "You", "text": "I’m wearing a [color] [clothes]." }
@@ -382,7 +382,7 @@
     "order": 13,
     "type": "review",
     "title": "Review 7–9",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       {
         "speaker": "You",
@@ -455,7 +455,7 @@
     "order": 14,
     "type": "unit",
     "title": "What Time Do You Wake Up?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What time do you wake up?" },
       { "speaker": "You", "text": "I wake up at [number] o’clock." }
@@ -466,7 +466,7 @@
   "11": {
     "order": 15,
     "title": "How Do You Go to School?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "How do you go to school?" },
       { "speaker": "You", "text": "I [transportation]." }
@@ -486,7 +486,7 @@
     "order": 16,
     "type": "unit",
     "title": "What Is Your Favorite Subject?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite subject?" },
       { "speaker": "You", "text": "My favorite subject is [subject]." }
@@ -507,7 +507,7 @@
     "order": 17,
     "type": "review",
     "title": "Review 10–12",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       {
         "speaker": "You",
@@ -633,7 +633,7 @@
   "order": 19,  
   "type": "unit",
   "title": "Do You Have a ...?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "Do you have [item]?" },
       { "speaker": "Coach", "text": "Yes, I do. / No, I don’t." },
@@ -658,7 +658,7 @@
     "order": 20,
     "type": "unit",
     "title": "What Does It Look Like?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What does your [item] look like?" },
       { "speaker": "You", "text": "It is [description]." }
@@ -692,7 +692,7 @@
     "order": 21,
     "type": "unit",
     "title": "Where Is Your ...?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Where is your [item]?" },
       { "speaker": "You", "text": "It is [preposition] [place]." }
@@ -721,7 +721,7 @@
     "order": 22,
     "type": "review",
     "title": "Review 13–15",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Do you have [item]?" },
       { "speaker": "You", "text": "Yes, I do." },
@@ -757,7 +757,7 @@
     "order": 23,
     "type": "unit",
     "title": "What Is Your Favorite Food?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite food?" },
       { "speaker": "You", "text": "My favorite food is [food]. It is [taste]." }
@@ -782,7 +782,7 @@
     "order": 24,
     "type": "unit",
     "title": "What Is Your Favorite Animal?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite animal?" },
       { "speaker": "You", "text": "My favorite animal is [animal]. They are [description]." }
@@ -808,7 +808,7 @@
     "order": 25,
     "type": "unit",
     "title": "What Do You like To Do After School?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you like to do after school?" },
       { "speaker": "You", "text": "I like to [activity] [withWho]." }
@@ -832,7 +832,7 @@
     "order": 26,
     "type": "review",
     "title": "Review 16–18",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "My favorite food is [food]." },
       { "speaker": "You", "text": "My favorite animal is [animal]." },
@@ -935,7 +935,7 @@
     "order": 28,
     "type": "unit",
     "title": "Can You ...?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "Can you [action]?" },
       { "speaker": "Coach", "text": "Yes, I can. / No, I can’t." },
@@ -957,7 +957,7 @@
     "order": 29,
     "type": "unit",
     "title": "What Are You Good At?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What are you good at?" },
       { "speaker": "You", "text": "I’m good at [activity]. I do it [frequency]." }
@@ -986,7 +986,7 @@
     "order": 30,
     "type": "unit",
     "title": "What Sports Do You Play?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What sports do you play?" },
       { "speaker": "You", "text": "I play [sport]. I play it [withWho]." }
@@ -1016,7 +1016,7 @@
     "order": 31,
     "type": "review",
     "title": "Review 19–21",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I’m good at [activity]." },
       { "speaker": "You", "text": "I do it [frequency]." },
@@ -1053,7 +1053,7 @@
     "order": 32,
     "type": "unit",
     "title": "Who Do You Live With?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Who do you live with?" },
       { "speaker": "You", "text": "I live with my [family]. They are [personality]." }
@@ -1080,7 +1080,7 @@
     "order": 33,
     "type": "unit",
     "title": "What Do You Do With Your Family?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you do with your family?" },
       { "speaker": "You", "text": "We [activity] together." }
@@ -1099,7 +1099,7 @@
     "order": 34,
     "type": "unit",
     "title": "What Do You Do at Home?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you do at home?" },
       { "speaker": "You", "text": "I [activity] at home. I do it [when] [time]." }
@@ -1127,7 +1127,7 @@
     "order": 35,
     "type": "review",
     "title": "Review 22–24",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I live with my [family]." },
       { "speaker": "You", "text": "We [activity] together." },
@@ -1227,7 +1227,7 @@
     "order": 37,
     "type": "unit",
     "title": "What Season Do You Like?",
-    "youtubeId": "jxQ4DOtMdDM",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What season do you like?" },
       { "speaker": "You", "text": "I like [season]. It is [temperature]. I can [activity]." }
@@ -1258,7 +1258,7 @@
     "order": 38,
     "type": "unit",
     "title": "What Is Your Favorite Weather?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite weather?" },
       { "speaker": "You", "text": "I like [weather] days. I can [activity]. It makes me feel [feeling]." }
@@ -1289,7 +1289,7 @@
     "order": 39,
     "type": "unit",
     "title": "What is your Favorite Holiday?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite holiday?" },
       { "speaker": "You", "text": "My favorite holiday is [holiday]. We [activity]. It is [feeling]." }
@@ -1319,7 +1319,7 @@
     "order": 40,
     "type": "review",
     "title": "Review 25–27",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I like [season]. It is [temperature]." },
       { "speaker": "You", "text": "I like [weather] days." },
@@ -1351,7 +1351,7 @@
     "order": 41,
     "type": "unit",
     "title": "What Is Your Dream?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your dream?" },
       { "speaker": "You", "text": "I want to [dream]. I want to [activity]. I will [action]." }
@@ -1379,7 +1379,7 @@
     "order": 42,
     "type": "unit",
     "title": "What Is Your Treasure?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your treasure?" },
       { "speaker": "You", "text": "My treasure is my [treasure]. I got it from [place]. It is [description]." }
@@ -1409,7 +1409,7 @@
     "order": 43,
     "type": "unit",
     "title": "What Do You Want For Your Birthday?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you want for your birthday?" },
       { "speaker": "You", "text": "I want [gift] for my birthday. If I get it, I will [action]." }
@@ -1433,7 +1433,7 @@
     "order": 44,
     "type": "review",
     "title": "Review 28–30",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I want to [dream]." },
       { "speaker": "You", "text": "My treasure is my [treasure]." },
@@ -1519,7 +1519,7 @@
     "order": 46,
     "type": "unit",
     "title": "Tell Me About Your Town.",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Tell me about your town." },
       { "speaker": "You", "text": "I live in [name]." },
@@ -1551,7 +1551,7 @@
     "order": 47,
     "type": "unit",
     "title": "Where Is Your Favorite Place?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Where is your favorite place?" },
       { "speaker": "You", "text": "My favorite place is [place]." },
@@ -1582,7 +1582,7 @@
     "order": 48,
     "type": "unit",
     "title": "Where Do You Want To Go?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "Where do you want to go?" },
       { "speaker": "You", "text": "I want to go to [place]." },
@@ -1606,7 +1606,7 @@
     "order": 49,
     "type": "review",
     "title": "Review 31–33",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I live in [name]." },
       { "speaker": "You", "text": "My favorite place is [place]." },
@@ -1628,7 +1628,7 @@
     "order": 50,
     "type": "unit",
     "title": "What Did You Do Yesterday?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What did you do yesterday?" },
       { "speaker": "You", "text": "I [action] yesterday." },
@@ -1658,7 +1658,7 @@
     "order": 51,
     "type": "unit",
     "title": "What Did You Do Last Vacation?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What did you do last vacation?" },
       { "speaker": "You", "text": "I [action] last vacation." },
@@ -1688,7 +1688,7 @@
     "order": 52,
     "type": "unit",
     "title": "What Will You Do This Weekend?",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What will you do this weekend?" },
       { "speaker": "You", "text": "I will [action] this weekend." },
@@ -1718,7 +1718,7 @@
     "order": 53,
     "type": "review",
     "title": "Review 34–36",
-    "youtubeId": "3DtZZsV8LZQ",
+    "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I [action] yesterday." },
       { "speaker": "You", "text": "I [action2] last vacation." },
