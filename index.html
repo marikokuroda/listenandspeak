@@ -11,8 +11,8 @@
 <div class="app">
   <!-- INDEX VIEW -->
   <section id="view-index">
-    <h1>Speaking Coach</h1>
-    <p style="text-align:center;">Choose your unit.</p>
+    <h1>Listen and Speak</h1>
+    <p style="text-align:center;"> ユニットをえらぼう </p>
     <div class="unit-grid" id="unitGrid"></div>
   </section>
 
@@ -26,9 +26,11 @@
     </div>
 
     <div class="unit-grid" id="topicGrid"></div>
+    
+    <hr class="action-divider">
 
     <div class="nav-row">
-      <button class="btn-secondary" id="btnTopicBackIndex">Back to units</button>
+      <button class="btn-secondary" id="btnTopicBackIndex">◀︎ もどる</button>
     </div>
   </section>
 
@@ -37,7 +39,7 @@
     <h2 id="videoTitle">Unit</h2>
     <div class="instruction-step">
       <div class="step-number">1</div>
-      <div>Watch the video. Then press "Next".</div>
+      <div>ビデオを見よう。そのあと「つぎ」に進もう。</div>
     </div>
     <div class="video-wrapper">
       <iframe id="videoFrame"
@@ -45,18 +47,21 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
     </div>
+
+    <hr class="action-divider">
+
     <div class="nav-row">
-      <button class="btn-secondary" id="btnVideoBackIndex">Back to units</button>
-      <button id="btnVideoNext">Next: Make your script</button>
+      <button class="btn-secondary" id="btnVideoBackIndex"> ◀︎ もどる</button>
+      <button id="btnVideoNext">つぎ ▶︎</button>
     </div>
   </section>
   
   <!-- SCRIPT VIEW -->
   <section id="view-script" class="hidden">
-    <h2 id="scriptTitle">Unit</h2>
+    <h2 id="scriptTitle"> セリフを作ろう </h2>
     <div class="instruction-step">
       <div class="step-number">1</div>
-      <div>Fill in the blanks with your answer.</div>
+      <div> 自分の答えを入れて、セリフを作ろう。できたら「つぎ」へ進もう。</div>
     </div>
 
     <div class="layout-script">
@@ -73,37 +78,41 @@
       </div>
     </div>
 
-    <!-- Simplified buttons (no edit/status) -->
     <div class="status-section">
-      <div style="margin-top:10px;">
-        <button id="btnConfirm"> Save answer </button>
+      <div style="margin-top:20px; margin-bottom:24px;">
+        <button id="btnConfirm">つぎ ▶︎</button>
       </div>
-      <div class="nav-row" style="margin-top:12px;">
-        <button class="btn-secondary" id="btnScriptBackVideo">Back to video</button>
-        <button class="btn-secondary" id="btnScriptBackIndex">Back to units</button>
+
+      <hr class="action-divider">
+
+      <div class="nav-row" style="margin-top:16px;">
+        <button class="btn-secondary" id="btnScriptBack">◀︎ もどる</button>
       </div>
     </div>
   </section>
 
   <!-- PRACTICE VIEW -->
   <section id="view-practice" class="hidden">
-    <h2 id="practiceTitle">Unit</h2>
+    <h2 id="practiceTitle">話してみよう</h2>
     <div class="practice-instructions">
       <div class="instruction-step">
         <div class="step-number">1</div>
-        <div>Practice the conversation twice with the coach.</div>
+        <div> 自分のセリフを１文ずつ、コーチと2回リピーティングしよう。</div>
       </div>
       <div class="instruction-step">
         <div class="step-number">2</div>
-        <div>Give the tablet to a coach. Practice the conversation again without looking!</div>
+        <div>セリフを見ないでコーチと会話をしてみよう！</div>
       </div>
     </div>
     <div class="practice-script" id="practiceScript">
       <!-- Confirmed script will appear here -->
     </div>
+
+    <hr class="action-divider">
+
     <div class="nav-row" style="margin-top:20px;">
-      <button class="btn-secondary" id="btnPracticeBackScript">Back to script</button>
-      <button class="btn-secondary" id="btnPracticeBackIndex">Back to units</button>
+      <button class="btn-secondary" id="btnPracticeBackScript">◀︎ セリフを直す</button>
+      <button class="btn-secondary" id="btnPracticeBackIndex">はじめにもどる</button>
     </div>
   </section>
 </div>

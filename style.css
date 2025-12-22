@@ -87,6 +87,20 @@ button:active {
   background: var(--soft-blue);
 }
 
+#btnConfirm {
+  font-size: 1.1rem;
+  padding: 16px 24px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  display: block;
+
+  background-color: var(--primary-dark);
+  color: white;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
 /* =====================================================
    UTILITIES
 ===================================================== */
@@ -100,6 +114,12 @@ button:active {
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 20px;
+}
+
+.action-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
 }
 
 /* =====================================================

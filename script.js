@@ -14,18 +14,26 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- DOM elements ----------
   
   const unitGrid = document.getElementById('unitGrid');
-  const scriptBox = document.getElementById('scriptBox');
-  const answerBanks = document.getElementById('answerBanks');
-  const practiceScript = document.getElementById('practiceScript');
-
 
   const videoTitle = document.getElementById('videoTitle');
   const videoFrame = document.getElementById('videoFrame');
+
   const scriptTitle = document.getElementById('scriptTitle');
+  const scriptBox = document.getElementById('scriptBox');    
+  const answerBanks = document.getElementById('answerBanks');
+
   const practiceTitle = document.getElementById('practiceTitle');
+  const practiceScript = document.getElementById('practiceScript');
 
   const btnConfirm = document.getElementById('btnConfirm');
-  const btnScriptBackVideo = document.getElementById('btnScriptBackVideo');
+  const btnScriptBack = document.getElementById('btnScriptBack');
+  const btnVideoBackIndex = document.getElementById('btnVideoBackIndex');
+
+  if (btnVideoBackIndex) {
+    btnVideoBackIndex.onclick = () => {
+      showView('index');
+    };
+  }
 
   // ======================================================
   // Load units
@@ -75,37 +83,15 @@ document.addEventListener('DOMContentLoaded', () => {
     selectedBlank = null;
 
     const unit = units[unitNumber];
-
-    // PRESENTATION UNITS
-    if (unit.type === 'presentation') {
-      btnScriptBackVideo.classList.add('hidden');
-      openPresentation(unit);
-      return;
-    }
-
-    // REVIEW UNITS
-    if (unit.type === 'review') {
-      btnScriptBackVideo.classList.add('hidden');
-      currentUnit = unit;
-      generateEditableScript(unit);
-      showView('script');
-      return;
-    }
-
-    // NORMAL UNITS
-    btnScriptBackVideo.classList.remove('hidden');
-
     currentUnit = unit;
 
-    videoTitle.textContent = `Unit ${unitNumber} – ${unit.title}`;
-    scriptTitle.textContent = `Unit ${unitNumber} – Your Conversation`;
-    practiceTitle.textContent = `Unit ${unitNumber} – Practice`;
-    videoFrame.src = `https://www.youtube.com/embed/${unit.youtubeId}`;
+    videoTitle.textContent = unit.title;
+    videoFrame.src = unit.youtubeId
+      ? `https://www.youtube.com/embed/${unit.youtubeId}`
+      : '';
 
-    generateEditableScript(unit);
     showView('video');
   }
-
 
   function openPresentation(unit) {
     const title = document.getElementById('presentationTitle');
@@ -119,13 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
     unit.topics.forEach(topic => {
       const card = document.createElement('div');
       card.className = 'unit-card';
-      card.innerHTML = `
-        <div class="unit-title">${topic.title}</div>
-      `;
+      card.innerHTML = `<div class="unit-title">${topic.title}</div>`;
 
       card.onclick = () => {
-        btnScriptBackVideo.classList.add('hidden');
-
         currentUnit = {
           type: 'presentation-topic',
           title: topic.title,
@@ -143,8 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
       grid.appendChild(card);
     });
 
-  showView('presentation-topic');
-}
+    showView('presentation-topic');
+  }
+
 
 
   // ======================================================
@@ -251,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     const input = document.createElement('input');
     input.className = 'blank-input';
-    input.placeholder = 'tap to enter';
+    input.placeholder = 'タップして入力';
     input.disabled = true;
   
     // ⭐ SAVE TYPED INPUT ⭐
@@ -320,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ======================================================
   function generateAnswerBanks(banks) {
     answerBanks.innerHTML =
-      `<p class="answer-tip">Tap a blank, then choose or type</p>`;
+      `<p class="answer-tip">答えをえらぶか自分の答えをタイピングしよう</p>`;
 
     Object.entries(banks).forEach(([type, answers]) => {
       const group = document.createElement('div');
@@ -402,12 +385,32 @@ document.addEventListener('DOMContentLoaded', () => {
   // ======================================================
   // NAV BUTTONS
   // ======================================================
-  document.getElementById('btnVideoBackIndex').onclick = () => showView('index');
-  document.getElementById('btnVideoNext').onclick = () => showView('script');
-  document.getElementById('btnScriptBackVideo').onclick = () => showView('video');
-  document.getElementById('btnScriptBackIndex').onclick = () => showView('index');
-  document.getElementById('btnTopicBackIndex').onclick = () => showView('index');
+  document.getElementById('btnVideoNext').onclick = () => {
+    if (currentUnit.type === 'presentation') {
+      openPresentation(currentUnit);
+      return;
+    }
 
+    scriptTitle.textContent = currentUnit.title;
+    practiceTitle.textContent = currentUnit.title;
+
+    generateEditableScript(currentUnit);
+    showView('script');
+  };
+  
+  if (btnScriptBack) {
+    btnScriptBack.onclick = () => {
+      if (currentUnit.type === 'presentation-topic') {
+        showView('presentation-topic');
+        return;
+      }
+      showView('video');
+    };
+  }
+
+  document.getElementById('btnTopicBackIndex').onclick = () => {
+    showView('video');
+  };
 
   document.getElementById('btnPracticeBackScript').onclick = () => {
     selectedBlank = null;
