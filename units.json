@@ -6,10 +6,13 @@
     "youtubeId": "1JeDJLZeTbY",
     "script": [
       { "speaker": "Coach", "text": "Hello! What’s your name?" },
-      { "speaker": "You", "text": "My name is [name]. What’s your name?" },
+      { "speaker": "You", "text": "My name is [name]. What’s your name?"},
       { "speaker": "Coach", "text": "My name is (coach's name). Nice to meet you!" }
     ],
-    "answerBanks": {}
+    "answerBanks": {},
+    "examples":{
+      "name":"例）'Bill'"
+    }
   },
 
   "2": {
@@ -20,7 +23,11 @@
     "script": [
       { "speaker": "Coach", "text": "Hi! How old are you?" },
       { "speaker": "You", "text": "I’m [age] years old." }
-    ]
+    ],
+    "answerBanks": {},
+    "examples":{
+      "age":"例）'eight'"
+    }
   },
 
   "3": {
@@ -43,6 +50,9 @@
         { "text": "bored" },
         { "text": "sleepy" }
       ]
+    },
+    "examples":{
+      "feeling":"例）'sleepy'"
     }
   },
 
@@ -70,6 +80,11 @@
         { "text": "bored" },
         { "text": "sleepy" }
       ]
+    },
+    "examples":{
+      "name":"例）'Bill'",
+      "age":"例）'eight'",
+      "feeling":"例）'sleepy'"
     }
   },
 
@@ -97,6 +112,9 @@
         { "text": "eleventh" },
         { "text": "twelfth" }
       ]
+    },
+    "examples":{
+      "grade":"例）'third'"
     }
   },
 
@@ -124,6 +142,10 @@
         { "text": "November" },
         { "text": "December" }
       ]
+    },
+    "examples":{
+      "month":"例）'January'",
+      "date":"例）'6th'"
     }
   },
 
@@ -149,6 +171,9 @@
         { "text": "orange" },
         { "text": "brown" }
       ]
+    },
+    "examples":{
+      "color":"例）'pink'"
     }
   },
 
@@ -216,6 +241,13 @@
         { "text": "orange" },
         { "text": "brown" }
       ]
+    },
+    "examples":{
+      "name":"例）'Bill'",
+      "grade":"例）'third'",
+      "month":"例）'January'",
+      "date":"例）'6th'",
+      "color":"例）'pink'"
     }
   },
 
@@ -223,7 +255,7 @@
     "order": 9,
     "type": "presentation",
     "title": "Presentation 1–6",
-    "instructions": "Choose one topic.",
+    "instructions": "トピックを１つえらぼう",
     "topics": [
       {
         "id": "intro1",
@@ -248,6 +280,12 @@
             { "text": "November" },
             { "text": "December" }
           ]
+        },
+        "examples":{
+          "name":"例）'Bill'",
+          "age":"例）'eight'",
+          "month":"例）'January'",
+          "date":"例）'6th'"
         }
       },
       {
@@ -256,7 +294,7 @@
         "script": [
           { "speaker": "You", "text": "Hello, my name is [name]." },
           { "speaker": "You", "text": "I'm in [grade] grade." },
-          { "speaker": "Coach", "text": "What color do you like?"}
+          { "speaker": "Coach", "text": "I like [color]."}
         ],
         "answerBanks": {
           "grade": [
@@ -285,6 +323,11 @@
             { "text": "orange" },
             { "text": "brown" }
           ]
+        },
+        "examples":{
+          "name":"例）'Bill'",
+          "grade":"例）'third'",
+          "color":"例）'pink'"
         }
       }
     ]
@@ -323,6 +366,11 @@
         { "text": "November" },
         { "text": "December" }
       ]
+    },
+    "examples":{
+      "day":"例）'Thursday'",
+      "month":"例）'December'",
+      "number":"例）'25th'"
     }
   },
 
@@ -346,6 +394,9 @@
         { "text": "cold" },
         { "text": "warm" }
       ]
+    },
+    "examples":{
+      "weather":"例）'windy'"
     }
   },
 
@@ -379,6 +430,10 @@
         { "text": "jacket" },
         { "text": "dress" }
       ]
+    },
+    "examples":{
+      "color":"例）'blue'",
+      "clothes":"例）'shirt'"
     }
   },
 
@@ -452,6 +507,14 @@
         { "text": "hat" },
         { "text": "dress" }
       ]
+    },
+    "examples":{
+      "day":"例）'Thursday'",
+      "month":"例）'December'",
+      "number":"例）'25th'",
+      "weather":"例）'sunny'",
+      "color":"例）'blue'",
+      "clothes":"例）'shirt'"
     }
   },
   
@@ -464,7 +527,10 @@
       { "speaker": "Coach", "text": "What time do you wake up?" },
       { "speaker": "You", "text": "I wake up at [time] (o'clock)." }
     ],
-    "answerBanks": {}
+    "answerBanks": {},
+    "examples":{
+      "time":"例）'7:30'"
+    }
   },
 
   "11": {
@@ -483,6 +549,9 @@
         { "text": "go by car" },
         { "text": "ride my bike" }
       ]
+    },
+    "examples":{
+      "transportation":"例）'ride the train'"
     }
   },
 
@@ -505,6 +574,9 @@
         { "text": "PE" },
         { "text": "social studies" }
       ]
+    },
+    "examples":{
+      "subject":"例）'English'"
     }
   },
 
@@ -516,7 +588,7 @@
     "script": [
       {
         "speaker": "You",
-        "text": "I wake up at [number] o'clock. I [transportation] to school. My favorite subject is [subject]."
+        "text": "I wake up at [number] (o'clock). I [transportation] to school. My favorite subject is [subject]."
       }
     ],
     "answerBanks": {
@@ -536,6 +608,11 @@
         { "text": "PE" },
         { "text": "social studies" }
       ]
+    },
+    "examples":{
+      "number":"例）'7:30'",
+      "transportation":"例）'ride the train'",
+      "subject":"例）'English'"
     }
   },
 
@@ -543,14 +620,14 @@
   "order": 18,
   "type": "presentation",
   "title": "Presentation 7–12",
-  "instructions": "Choose one topic. Say 3 sentences.",
+  "instructions": "トピックを１つ選ぼう",
   "topics": [
     {
       "id": "today",
       "title": "About Today",
       "script": [
         { "speaker": "You", "text": "Today is [day]." },
-        { "speaker": "You", "text": "The weather is [weather]." },
+        { "speaker": "You", "text": "It's [weather]." },
         { "speaker": "You", "text": "I'm wearing a [color] [clothes]." }
       ],
       "answerBanks": {
@@ -598,15 +675,21 @@
         { "text": "hat" },
         { "text": "dress" }
         ]
+      },
+      "examples":{
+        "day":"例）'Thursday'",
+        "weather":"例）'sunny'",
+        "color":"例）'blue'",
+        "clothes":"例）'shirt'"
       }
     },
     {
       "id": "school-days",
       "title": "My School Days",
       "script": [
+        { "speaker": "You", "text": "I wake up at [number] (o'clock)." },
         { "speaker": "You", "text": "I [transportation] to school." },
-        { "speaker": "You", "text": "My favorite subject is [subject]." },
-        { "speaker": "You", "text": "I like my school." }
+        { "speaker": "You", "text": "My favorite subject is [subject]." }
       ],
       "answerBanks": {
         "transportation": [
@@ -625,6 +708,11 @@
           { "text": "PE" },
           { "text": "social studies" }
         ]
+      },
+    "examples":{
+        "number":"例）'7:30'",
+        "transportation":"例）'ride the train'",
+        "subject":"例）'English'"
       }
     }
   ]
@@ -636,23 +724,27 @@
   "title": "Do You Have a ...?",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
-      { "speaker": "You", "text": "Do you have [item]?" },
+      { "speaker": "You", "text": "Do you have [item1]?" },
       { "speaker": "Coach", "text": "Yes, I do. / No, I don’t." },
-      { "speaker": "Coach", "text": "Do you have [item]?" },
+      { "speaker": "Coach", "text": "Do you have [item2]?" },
       { "speaker": "You", "text": "Yes, I do. / No, I don’t." }
     ],
     "answerBanks": {
       "item": [
-        { "text": "pencil" },
-        { "text": "pen" },
-        { "text": "eraser" },
-        { "text": "ruler" },
-        { "text": "notebook" },
-        { "text": "book" },
-        { "text": "bag" },
+        { "text": "a pencil" },
+        { "text": "a pen" },
+        { "text": "an eraser" },
+        { "text": "a ruler" },
+        { "text": "a notebook" },
+        { "text": "a book" },
+        { "text": "a bag" },
         { "text": "scissors" },
         { "text": "glue" }
       ]
+    },
+    "examples":{
+      "item1":"例）'a pencil'",
+      "item2":"例）'an eraser'"
     }
   },
 
@@ -663,7 +755,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What does your [item] look like?" },
-      { "speaker": "You", "text": "It is [description]." }
+      { "speaker": "You", "text": "It is [description1] and  [description2]." }
     ],
     "answerBanks": {
       "item": [
@@ -674,7 +766,6 @@
         { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
-        { "text": "scissors" },
         { "text": "glue" }
       ],
       "description": [
@@ -687,6 +778,11 @@
         { "text": "new" },
         { "text": "old" }
       ]
+    },
+    "examples":{
+      "item":"例）'pencil'",
+      "description1":"例）'long'",
+      "description2":"例）'blue'"
     }
   },
 
@@ -708,7 +804,6 @@
         { "text": "notebook" },
         { "text": "book" },
         { "text": "bag" },
-        { "text": "scissors" },
         { "text": "glue" }
       ],
       "preposition": [
@@ -722,6 +817,11 @@
         { "text": "near" },
         { "text": "inside" }
       ]
+    },
+    "examples":{
+      "item":"例）'pencil'",
+      "preposition":"例）'on'",
+      "place":"例）'the desk'"
     }
   },
 
@@ -734,19 +834,19 @@
       { "speaker": "Coach", "text": "Do you have [item]?" },
       { "speaker": "You", "text": "Yes, I do." },
       { "speaker": "Coach", "text": "What does it look like?" },
-      { "speaker": "You", "text": "It is [description]." },
+      { "speaker": "You", "text": "It is [description1] and  [description2]." },
       { "speaker": "Coach", "text": "Where is it?" },
       { "speaker": "You", "text": "I put it [preposition] [place]." }
     ],
     "answerBanks": {
       "item": [
-        { "text": "pencil" },
-        { "text": "pen" },
-        { "text": "eraser" },
-        { "text": "ruler" },
-        { "text": "notebook" },
-        { "text": "book" },
-        { "text": "bag" },
+        { "text": "a pencil" },
+        { "text": "a pen" },
+        { "text": "an eraser" },
+        { "text": "a ruler" },
+        { "text": "a notebook" },
+        { "text": "a book" },
+        { "text": "a bag" },
         { "text": "scissors" },
         { "text": "glue" }
       ],
@@ -771,6 +871,13 @@
         { "text": "near" },
         { "text": "inside" }
       ]
+    },
+    "examples":{
+      "item":"例）'pencil'",
+      "description1":"例）'long'",
+      "description2":"例）'blue'",
+      "preposition":"例）'on'",
+      "place":"例）'the desk'"
     }
   },
 
@@ -799,6 +906,10 @@
         { "text": "yummy" },
         { "text": "crunchy" }
       ]
+    },
+    "examples":{
+      "food":"例）'fried chicken'",
+      "taste":"例）'yummy'"
     }
   },
 
@@ -833,6 +944,10 @@
         { "text": "big" },
         { "text": "small" }
       ]
+    },
+    "examples":{
+      "animal":"例）'pandas'",
+      "description":"例）'cute'"
     }
   },
 
@@ -843,7 +958,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you like to do after school?" },
-      { "speaker": "You", "text": "I like to [activity] [withWho]." }
+      { "speaker": "You", "text": "I like to [activity] [with who]." }
     ],
     "answerBanks": {
       "activity": [
@@ -857,7 +972,7 @@
         { "text": "talk" },
         { "text": "eat snacks" }
       ],
-      "withWho": [
+      "with who": [
         { "text": "with my friends" },
         { "text": "by myself" },
         { "text": "with my mom" },
@@ -866,6 +981,10 @@
         { "text": "with my brother" },
         { "text": "with my family" }
       ]
+    },
+    "examples":{
+      "activity":"例）'play games'",
+      "with who":"例）'with my brother'"
     }
   },
 
@@ -877,7 +996,7 @@
     "script": [
       { "speaker": "You", "text": "My favorite food is [food]." },
       { "speaker": "You", "text": "My favorite animal is [animal]." },
-      { "speaker": "You", "text": "I like to [activity] [withWho]." }
+      { "speaker": "You", "text": "I like to [activity] [with who]." }
     ],
     "answerBanks": {
       "food": [
@@ -911,7 +1030,7 @@
         { "text": "talk" },
         { "text": "eat snacks" }
       ],
-      "withWho": [
+      "with who": [
         { "text": "with my friends" },
         { "text": "by myself" },
         { "text": "with my mom" },
@@ -920,6 +1039,12 @@
         { "text": "with my brother" },
         { "text": "with my family" }
       ]
+    },
+    "examples":{
+      "food":"例）'fried chicken'",
+      "animal":"例）'pandas'",
+      "activity":"例）'play games'",
+      "with who":"例）'with my brother'"
     }
   },
 
@@ -927,14 +1052,14 @@
     "order": 27,
     "type": "presentation",
     "title": "Presentation 13–18",
-    "instructions": "Choose one topic.",
+    "instructions": "トピックを１つ選ぼう",
     "topics": [
       {
         "id": "show-and-tell",
         "title": "Show And Tell",
         "script": [
           { "speaker": "You", "text": "This is my [item]." },
-          { "speaker": "You", "text": "It is [description]." },
+          { "speaker": "You", "text": "It is [description1] and  [description2]." },
           { "speaker": "You", "text": "I put it [preposition] [place]." }
         ],
         "answerBanks": {
@@ -958,7 +1083,25 @@
             { "text": "square" },
             { "text": "new" },
             { "text": "old" }
+          ],
+          "preposition": [
+            { "text": "in" },
+            { "text": "on" },
+            { "text": "under" },
+            { "text": "next to" },
+            { "text": "behind" },
+            { "text": "in front of" },
+            { "text": "between" },
+            { "text": "near" },
+            { "text": "inside" }
           ]
+        },
+        "examples":{
+          "item":"例）'pencil'",
+          "description1":"例）'long'",
+          "description2":"例）'blue'",
+          "preposition":"例）'on'",
+          "place":"例）'the desk'"
         }
       },
       {
@@ -967,7 +1110,7 @@
         "script": [
           { "speaker": "You", "text": "My favorite food is [food]." },
           { "speaker": "You", "text": "My favorite animal is [animal]." },
-          { "speaker": "You", "text": "I like to [activity] [withWho]." }
+          { "speaker": "You", "text": "I like to [activity] [with who]." }
         ],
         "answerBanks": {
           "food": [
@@ -1001,7 +1144,7 @@
             { "text": "talk" },
             { "text": "eat snacks" }
           ],
-          "withWho": [
+          "with who": [
             { "text": "with my friends" },
             { "text": "by myself" },
             { "text": "with my mom" },
@@ -1010,6 +1153,12 @@
             { "text": "with my brother" },
             { "text": "with my family" }
           ]
+        },
+        "examples":{
+          "food":"例）'fried chicken'",
+          "animal":"例）'pandas'",
+          "activity":"例）'play games'",
+          "with who":"例）'with my brother'"
         }
       }
     ]
@@ -1021,9 +1170,9 @@
     "title": "Can You ...?",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
-      { "speaker": "You", "text": "Can you [action]?" },
+      { "speaker": "You", "text": "Can you [action1]?" },
       { "speaker": "Coach", "text": "Yes, I can. / No, I can’t." },
-      { "speaker": "Coach", "text": "Can you [action]?" },
+      { "speaker": "Coach", "text": "Can you [action2]?" },
       { "speaker": "You", "text": "Yes, I can. / No, I can’t." }
     ],
     "answerBanks": {
@@ -1034,6 +1183,10 @@
         { "text": "ride a bike" },
         { "text": "play soccer" }
       ]
+    },
+    "examples":{
+      "action1":"例）'swim'",
+      "action2":"例）'climb a tree'"
     }
   },
 
@@ -1064,6 +1217,10 @@
         { "text": "a lot" },
         { "text": "sometimes" }
       ]
+    },
+    "examples":{
+      "activity":"例）'dancing'",
+      "frequency":"例）'every day'"
     }
   },
 
@@ -1075,7 +1232,7 @@
     "script": [
       { "speaker": "Coach", "text": "What sports do you play?" },
       { "speaker": "You", "text": "I play [sport]." },
-      { "speaker": "You", "text": "I play it [withWho]." }
+      { "speaker": "You", "text": "I play it [with who]." }
     ],
     "answerBanks": {
       "sport": [
@@ -1090,11 +1247,15 @@
         { "text": "volleyball" },
         { "text": "dodgeball" }
       ],
-      "withWho": [
+      "with who": [
         { "text": "with my friends" },
         { "text": "with my family" },
         { "text": "by myself" }
       ]
+    },
+    "examples":{
+      "sport":"例）'soccer'",
+      "with who":"例）'with my friends'"
     }
   },
 
@@ -1104,10 +1265,12 @@
     "title": "Review 19–21",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
+      { "speaker": "Coach", "text": "Can you swim?" },
+      { "speaker": "You", "text": "Yes, I can. / No, I can’t." },
+      { "speaker": "Coach", "text": "What are you good at?" },
       { "speaker": "You", "text": "I’m good at [activity]." },
-      { "speaker": "You", "text": "I do it [frequency]." },
-      { "speaker": "You", "text": "I also play [sport]." },
-      { "speaker": "You", "text": "I play it [withWho]." }
+      { "speaker": "Coach", "text": "What sports do you play?" },
+      { "speaker": "You", "text": "I play [sport]." }
     ],
     "answerBanks": {
       "activity": [
@@ -1120,12 +1283,6 @@
         { "text": "cooking" },
         { "text": "playing games" }
       ],
-      "frequency": [
-        { "text": "every day" },
-        { "text": "every week" },
-        { "text": "a lot" },
-        { "text": "sometimes" }
-      ],
       "sport": [
         { "text": "soccer" },
         { "text": "baseball" },
@@ -1137,12 +1294,11 @@
         { "text": "table tennis" },
         { "text": "volleyball" },
         { "text": "dodgeball" }
-      ],
-      "withWho": [
-        { "text": "with my friends" },
-        { "text": "with my family" },
-        { "text": "by myself" }
       ]
+    },
+    "examples":{
+      "activity":"例）'dancing'",
+      "sport":"例）'soccer'"
     }
   },
 
@@ -1158,8 +1314,8 @@
     ],
     "answerBanks": {
       "family": [
-        { "text": "mother" },
-        { "text": "father" },
+        { "text": "mom" },
+        { "text": "dad" },
         { "text": "brother" },
         { "text": "sister" },
         { "text": "grandma" },
@@ -1172,6 +1328,10 @@
         { "text": "shy" },
         { "text": "calm" }
       ]
+    },
+    "examples":{
+      "family":"例）'mom'",
+      "personality":"例）'kind'"
     }
   },
 
@@ -1182,8 +1342,8 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you do with your family?" },
-      { "speaker": "You", "text": "We [activity] together." },
-      { "speaker": "You", "text": "We [activity] together, too." }
+      { "speaker": "You", "text": "We [activity1] together." },
+      { "speaker": "You", "text": "We [activity2] together, too." }
     ],
     "answerBanks": {
       "activity": [
@@ -1195,6 +1355,10 @@
         { "text": "play games" },
         { "text": "travel" }
       ]
+    },
+    "examples":{
+      "activity1":"例）'go shopping'",
+      "activity2":"例）'cook'"
     }
   },
 
@@ -1234,6 +1398,11 @@
         { "text": "school" },
         { "text": "bedtime" }
       ]
+    },
+    "examples":{
+      "activity":"例）'wash dishes'",
+      "when":"例）'after'",
+      "time":"例）'dinner'"
     }
   },
 
@@ -1244,7 +1413,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "You", "text": "I live with my [family]." },
-      { "speaker": "You", "text": "We [activity] together." },
+      { "speaker": "You", "text": "We [activity1] together." },
       { "speaker": "You", "text": "I [activity2] at home." }
     ],
     "answerBanks": {
@@ -1256,7 +1425,7 @@
         { "text": "grandma" },
         { "text": "grandpa" }
       ],
-      "activity": [
+      "activity1": [
         { "text": "go shopping" },
         { "text": "cook" },
         { "text": "clean" },
@@ -1278,6 +1447,11 @@
         { "text": "watch TV" },
         { "text": "do homework" }
       ]
+    },
+    "examples":{
+      "family":"例）'mom'",
+      "activity1":"例）'go shopping'",
+      "activity2":"例）'wash dishes'"
     }
   },
 
@@ -1285,7 +1459,7 @@
     "order": 36,
     "type": "presentation",
     "title": "Presentation 19–24",
-    "instructions": "Choose one topic.",
+    "instructions": "トピックを１つえらぼう",
     "topics": [
       {
         "id": "what-i-can-do",
@@ -1293,7 +1467,7 @@
         "script": [
           { "speaker": "You", "text": "I'm good at [activity]." },
           { "speaker": "You", "text": "I also play [sport]. " },
-          { "speaker": "You", "text": "I play it [withWho]." }
+          { "speaker": "You", "text": "I play it [with who]." }
         ],
         "answerBanks": {
           "activity": [
@@ -1320,11 +1494,16 @@
             { "text": "dodgeball" }
           ],
 
-          "withWho": [
+          "with who": [
             { "text": "with my friends" },
             { "text": "with my family" },
             { "text": "by myself" }
           ]
+        },
+        "examples":{
+          "activity":"例）'dancing'",
+          "sport":"例）'soccer'",
+          "with who":"例）'with my friends'"
         }
       },
       {
@@ -1332,7 +1511,7 @@
         "title": "My Family and Home",
         "script": [
           { "speaker": "You", "text": "I live with my [family]." },
-          { "speaker": "You", "text": "We [activity] together." },
+          { "speaker": "You", "text": "We [activity1] together." },
           { "speaker": "You", "text": "I [activity2] at home." }
         ],
         "answerBanks": {
@@ -1344,7 +1523,7 @@
             { "text": "grandma" },
             { "text": "grandpa" }
           ],
-          "activity": [
+          "activity1": [
             { "text": "go shopping" },
             { "text": "cook" },
             { "text": "clean" },
@@ -1366,6 +1545,11 @@
             { "text": "watch TV" },
             { "text": "do homework" }
           ]
+        },
+        "examples":{
+          "family":"例）'mom'",
+          "activity1":"例）'go shopping'",
+          "activity2":"例）'wash dishes'"
         }
       }
     ]
@@ -1378,7 +1562,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What season do you like?" },
-      { "speaker": "You", "text": "I like [season]. It is [temperature]. I can [activity]." },
+      { "speaker": "You", "text": "I like [season]." },
       { "speaker": "You", "text": "It is [temperature]." },
       { "speaker": "You", "text": "I can [activity]." }
     ],
@@ -1401,6 +1585,11 @@
         { "text": "go swimming" },
         { "text": "go hiking" }
       ]
+    },
+    "examples":{
+      "season":"例）'winter'",
+      "temperature":"例）'cold'",
+      "activity":"例）'go skiing'"
     }
   },
 
@@ -1437,6 +1626,11 @@
         { "text": "relaxed" },
         { "text": "excited" }
       ]
+    },
+    "examples":{
+      "weather":"例）'sunny'",
+      "activity":"例）'go outside'",
+      "feeling":"例）'happy'"
     }
   },
 
@@ -1447,7 +1641,9 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your favorite holiday?" },
-      { "speaker": "You", "text": "My favorite holiday is [holiday]. We [activity]. It is [feeling]." }
+      { "speaker": "You", "text": "My favorite holiday is [holiday]." },
+      { "speaker": "You", "text": "We [activity]." },
+      { "speaker": "You", "text": "It is [feeling]." }
     ],
     "answerBanks": {
       "holiday": [
@@ -1469,6 +1665,11 @@
         { "text": "exciting" },
         { "text": "happy" }
       ]
+    },
+    "examples":{
+      "holiday":"例）'Christmas'",
+      "activity":"例）'get presents'",
+      "feeling":"例）'happy'"
     }
   },
 
@@ -1509,6 +1710,12 @@
         { "text": "Children’s Day" },
         { "text": "Golden Week" }
       ]
+    },
+    "examples":{
+      "season":"例）'winter'",
+      "temperature":"例）'cold'",
+      "weather":"例）'sunny'",
+      "holiday":"例）'Christmas'"
     }
   },
 
@@ -1519,7 +1726,9 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What is your dream?" },
-      { "speaker": "You", "text": "I want to [dream]. I want to [activity]. I have to [action]." }
+      { "speaker": "You", "text": "I want to [dream]." },
+      { "speaker": "You", "text": "I want to [activity]." },
+      { "speaker": "You", "text": "I have to [action]." }
     ],
     "answerBanks": {
       "dream": [
@@ -1541,6 +1750,11 @@
         { "text": "practice a lot" },
         { "text": "save money" }
       ]
+    },
+    "examples":{
+      "dream":"例）'travel the world'",
+      "activity":"例）'make friends'",
+      "action":"例）'save money'"
     }
   },
 
@@ -1580,6 +1794,11 @@
         { "text": "beautiful" },
         { "text": "special" }
       ]
+    },
+    "examples":{
+      "treasure":"例）'computer'",
+      "place":"例）'my parents'",
+      "description":"例）'special'"
     }
   },
 
@@ -1590,7 +1809,8 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What do you want for your birthday?" },
-      { "speaker": "You", "text": "I want [gift] for my birthday. If I get it, I will [action]." }
+      { "speaker": "You", "text": "I want [gift] for my birthday." },
+      { "speaker": "You", "text": "If I get it, I will [action]." }
     ],
     "answerBanks": {
       "gift": [
@@ -1607,6 +1827,10 @@
         { "text": "use it every day" },
         { "text": "share it with my family" }
       ]
+    },
+    "examples":{
+      "gift":"例）'a bike'",
+      "action":"例）'use it every day'"
     }
   },
 
@@ -1649,13 +1873,18 @@
         { "text": "clothes" },
         { "text": "money" }
       ]
+    },
+    "examples":{
+      "dream":"例）'travel the world'",
+      "treasure":"例）'computer'",
+      "gift":"例）'a bike'"
     }
   },
 "presentation-25-30": {
     "order": 45,
     "type": "presentation",
     "title": "Presentation 25–30",
-    "instructions": "Choose one topic.",
+    "instructions": "トピックを１つえらぼう",
     "topics": [
       {
         "id": "my-favorite-times",
@@ -1692,6 +1921,12 @@
             { "text": "Children’s Day" },
             { "text": "Golden Week" }
           ]
+        },
+        "examples":{
+          "season":"例）'winter'",
+          "temperature":"例）'cold'",
+          "weather":"例）'sunny'",
+          "holiday":"例）'Christmas'"
         }
       },
       {
@@ -1731,6 +1966,11 @@
             { "text": "clothes" },
             { "text": "money" }
           ]
+        },
+        "examples":{
+          "dream":"例）'travel the world'",
+          "treasure":"例）'computer'",
+          "gift":"例）'a bike'"
         }
       }
     ]
@@ -1757,7 +1997,7 @@
         { "text": "hospital" },
         { "text": "restaurant" }
       ],
-      "description": [
+      "description1": [
         { "text": "big" },
         { "text": "small" },
         { "text": "quiet" },
@@ -1769,6 +2009,12 @@
         { "text": "busy" },
         { "text": "clean" }
       ]
+    },
+    "examples":{
+      "name":"例）'Setagaya'",
+      "place":"例）'library'",
+      "description1":"例）'big'",
+      "description2":"例）'clean'"
     }
   },
 
@@ -1780,7 +2026,7 @@
     "script": [
       { "speaker": "Coach", "text": "Where is your favorite place?" },
       { "speaker": "You", "text": "My favorite place is [favorite place]." },
-      { "speaker": "You", "text": "I go there [with who?]." },
+      { "speaker": "You", "text": "I go there [with who]." },
       { "speaker": "You", "text": "I like to [action] there." }
     ],
     "answerBanks": {
@@ -1791,11 +2037,16 @@
         { "text": "the library" },
         { "text": "the movie theater" }
       ],
-      "with who?": [
+      "with who": [
         { "text": "by myself" },
         { "text": "with my friends" },
         { "text": "with my family" }
       ]
+    },
+    "examples":{
+      "favorite place":"例）'the mall'",
+      "with who":"例）'with my family'",
+      "action":"例）'go shopping'"
     }
   },
 
@@ -1807,9 +2058,15 @@
     "script": [
       { "speaker": "Coach", "text": "Where do you want to go?" },
       { "speaker": "You", "text": "I want to go to [place]." },
-      { "speaker": "You", "text": "I want to [action] there." }
+      { "speaker": "You", "text": "I want to [action1] there." },
+      { "speaker": "You", "text": "I also want to [action2] there." }
     ],
     "answerBanks": {
+    },
+    "examples":{
+      "place":"例）'Italy'",
+      "action1":"例）'eat pizza'",
+      "action2":"例）'see art'"
     }
   },
 
@@ -1821,7 +2078,7 @@
     "script": [
       { "speaker": "You", "text": "I live in [name]." },
       { "speaker": "You", "text": "My favorite place is [favorite place]." },
-      { "speaker": "You", "text": "I want to go to [place2]." }
+      { "speaker": "You", "text": "I want to go to [place]." }
     ],
     "answerBanks": {
       "favorite place": [
@@ -1831,6 +2088,11 @@
         { "text": "the library" },
         { "text": "the movie theater" }
       ]
+    },
+    "examples":{
+      "name":"例）'Setagaya'",
+      "favorite place":"例）'the mall'",
+      "place":"例）'Italy'"
     }
   },
 
@@ -1841,7 +2103,7 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What did you do yesterday?" },
-      { "speaker": "You", "text": "I [action] yesterday." },
+      { "speaker": "You", "text": "I [action1] yesterday." },
       { "speaker": "You", "text": "Then, I [action2]." },
       { "speaker": "You", "text": "It was [feeling]." }
     ],
@@ -1852,6 +2114,11 @@
         { "text": "tiring" },
         { "text": "exciting" }
       ]
+    },
+    "examples":{
+      "action1":"例）'studied'",
+      "action2":"例）'played piano'",
+      "feeling":"例）'busy'"
     }
   },
 
@@ -1867,6 +2134,11 @@
       { "speaker": "You", "text": "It was a [feeling] vacation." }
     ],
     "answerBanks": {
+    },
+    "examples":{
+      "action1":"例）'went to Hawaii'",
+      "action2":"例）'saw my grandma'",
+      "feeling":"例）'fun'"
     }
   },
 
@@ -1877,11 +2149,16 @@
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
       { "speaker": "Coach", "text": "What will you do this weekend?" },
-      { "speaker": "You", "text": "I will [action] this weekend." },
+      { "speaker": "You", "text": "I will [action1] this weekend." },
       { "speaker": "You", "text": "I will also [action2]." },
       { "speaker": "You", "text": "I am [feeling]!" }
     ],
     "answerBanks": {
+    },
+    "examples":{
+      "action1":"例）'go shopping'",
+      "action2":"例）'play games'",
+      "feeling":"例）'excited'"
     }
   },
 
@@ -1891,11 +2168,19 @@
     "title": "Review 34–36",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
+      { "speaker": "Coach", "text": "What did you do yesterday?" },
       { "speaker": "You", "text": "I [action] yesterday." },
+      { "speaker": "Coach", "text": "What did you do last vacation?" },
       { "speaker": "You", "text": "I [action2] last vacation." },
+      { "speaker": "Coach", "text": "What will you do this weekend?" },
       { "speaker": "You", "text": "I will [action3] this weekend." }
     ],
     "answerBanks": {
+    },
+    "examples":{
+      "action1":"例）'studied'",
+      "action2":"例）'went to Hawaii'",
+      "feeling":"例）'go shopping'"
     }
   },
 
@@ -1903,7 +2188,7 @@
     "order": 54,
     "type": "presentation",
     "title": "Presentation 30–36",
-    "instructions": "Choose one topic.",
+    "instructions": "トピックを１つえらぼう",
     "topics": [
       {
         "id": "my-town-and-places",
@@ -1911,27 +2196,37 @@
         "script": [
           { "speaker": "You", "text": "I live in [name]." },
           { "speaker": "You", "text": "My favorite place is [favorite place]." },
-          { "speaker": "You", "text": "I want to go to [place2]." }
+          { "speaker": "You", "text": "I want to go to [place]." }
         ],
         "answerBanks": {
           "favorite place": [
-             { "text": "the amusement park" },
+            { "text": "the amusement park" },
             { "text": "the mall" },
             { "text": "the museum" },
             { "text": "the library" },
             { "text": "the movie theater" }
           ]
+        },
+        "examples":{
+          "name":"例）'Setagaya'",
+          "favorite place":"例）'the mall'",
+          "place":"例）'Italy'"
         }
       },
       {
         "id": "my-weekends-and-vacations",
         "title": "My Weekends and Vacations",
         "script": [
-          { "speaker": "You", "text": "I [action] yesterday." },
+          { "speaker": "You", "text": "I [action1] yesterday." },
           { "speaker": "You", "text": "I [action2] last vacation." },
           { "speaker": "You", "text": "I will [action3] this weekend." }
         ],
         "answerBanks": {
+        },
+        "examples":{
+          "action":"例）'studied'",
+          "action2":"例）'went to Hawaii'",
+          "action3":"例）'go shopping'"
         }
       }
     ]

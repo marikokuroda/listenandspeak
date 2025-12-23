@@ -244,6 +244,14 @@ button:active {
   box-shadow: 0 6px 24px rgba(0,0,0,0.1);
 }
 
+.conversation-line.you-line {
+  background: #fff2a1; 
+  border-left: 4px solid #fce030;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 6px 0;
+}
+
 /* =====================================================
    CONVERSATION LINES (Speech Bubble Feel)
 ===================================================== */
@@ -259,8 +267,9 @@ button:active {
 .speaker {
   font-weight: 800;
   font-size: 1.45rem;
-  color: var(--primary);
 }
+
+
 
 /* =====================================================
    BLANKS (Answer Slots)
@@ -269,12 +278,11 @@ button:active {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
   min-height: 54px;
   margin: 6px;
   padding: 6px 12px;
   border-radius: 18px;
-  border: 3px solid #90CAF9;
+  border: 3px solid #fce030;
   background: white;
   position: relative;
   cursor: pointer;
@@ -299,7 +307,6 @@ button:active {
   font-size: 1.2rem;
   font-weight: 800;
   text-align: center;
-  width: 140px;
   pointer-events: none;
 }
 

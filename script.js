@@ -140,6 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const lineDiv = document.createElement('div');
       lineDiv.className = 'conversation-line';
 
+      if (line.speaker === 'You') {
+        lineDiv.classList.add('you-line');
+      }
+
       const speaker = document.createElement('span');
       speaker.className = 'speaker';
       speaker.textContent = `${line.speaker}: `;
@@ -157,8 +161,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const blankId = `blank-${lineIndex}-${match[1]}`;
-        const blank = createEditableBlank(blankId);
+        const key = match[1];
+        const example =
+          unit.examples && unit.examples[key]
+            ? unit.examples[key]
+            : 'タップして入力';
 
+const blank = createEditableBlank(blankId, example);
         // ⭐ RESTORE PREVIOUS ANSWER ⭐
         if (currentAnswers[blankId]) {
           const input = blank.querySelector('.blank-input');
@@ -180,6 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     generateAnswerBanks(unit.answerBanks);
+
   }
 
   // ======================================================
@@ -227,14 +237,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // ======================================================
   // BLANKS
   // ======================================================
-  function createEditableBlank(blankId) {
+  function createEditableBlank(blankId, placeholderText) {
     const blank = document.createElement('span');
     blank.className = 'drop-blank editable';
     blank.dataset.blankId = blankId;
-  
+
     const input = document.createElement('input');
     input.className = 'blank-input';
-    input.placeholder = 'タップして入力';
+    input.placeholder = placeholderText;
     input.disabled = true;
   
     // ⭐ SAVE TYPED INPUT ⭐
