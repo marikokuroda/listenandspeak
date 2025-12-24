@@ -207,6 +207,10 @@ const blank = createEditableBlank(blankId, example);
       speaker.textContent = `${line.speaker}: `;
       lineDiv.appendChild(speaker);
 
+      if (line.speaker === 'You') {
+        lineDiv.classList.add('you-line');
+      }
+
       const regex = /\[([^\]]+)\]/g;
       let lastIndex = 0;
       let match;

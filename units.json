@@ -183,22 +183,10 @@
     "title": "Review 4–6",
     "youtubeId": "AC3g_CaLzJ4",
     "script": [
-      {
-        "speaker": "You",
-        "text": "Hello, my name is [name]."
-      },
-      {
-        "speaker": "You",
-        "text": "I’m in [grade] grade."
-      },
-      {
-        "speaker": "You",
-        "text": "My birthday is [month] [date]."
-      },
-      {
-        "speaker": "You",
-        "text": "I like [color]."
-      }
+      {"speaker": "You", "text": "Hello, my name is [name]."},
+      {"speaker": "You", "text": "I’m in [grade] grade."},
+      { "speaker": "You","text": "My birthday is [month] [date]."},
+      {"speaker": "You","text": "I like [color]."}
     ],
     "answerBanks": {
       "month": [
@@ -1810,7 +1798,7 @@
     "script": [
       { "speaker": "Coach", "text": "What do you want for your birthday?" },
       { "speaker": "You", "text": "I want [gift] for my birthday." },
-      { "speaker": "You", "text": "If I get it, I will [action]." }
+      { "speaker": "You", "text": "I want to [action]." }
     ],
     "answerBanks": {
       "gift": [

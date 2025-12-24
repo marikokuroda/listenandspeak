@@ -439,6 +439,14 @@ button:active {
   border-left: 6px solid var(--primary);
 }
 
+.practice-script .conversation-line.you-line {
+  background: #fff2a1; 
+  border-left: 4px solid #fce030;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 6px 0;
+} 
+
 /* =====================================================
    SMALL SCREENS / TABLETS
 ===================================================== */
