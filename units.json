@@ -41,14 +41,14 @@
     ],
     "answerBanks": {
       "feeling": [
-        { "text": "happy" },
-        { "text": "sad" },
-        { "text": "tired" },
-        { "text": "angry" },
-        { "text": "excited" },
-        { "text": "hungry" },
-        { "text": "bored" },
-        { "text": "sleepy" }
+        { "text": "happy", "image": "images/happy.jpg" },
+        { "text": "sad", "image": "images/sad.jpg" },
+        { "text": "tired", "image": "images/tired.jpg" },
+        { "text": "angry", "image": "images/angry.jpg" },
+        { "text": "excited", "image": "images/excited.jpg" },
+        { "text": "hungry", "image": "images/hungry.jpg" },
+        { "text": "bored", "image": "images/bored.jpg" },
+        { "text": "sleepy", "image": "images/sleepy.jpg" }
       ]
     },
     "examples":{

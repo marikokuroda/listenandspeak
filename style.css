@@ -411,9 +411,9 @@ button:active {
 }
 
 .answer-image {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
 
 .answer-word {

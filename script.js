@@ -338,9 +338,8 @@ const blank = createEditableBlank(blankId, example);
         const card = document.createElement('div');
         card.className = 'answer-card';
       
-        // Normalize answer (string or object)
-        const text = typeof answer === 'string' ? answer : answer.text;
-        const imgSrc = typeof answer === 'object' ? answer.img : null;
+        const text = answer.text;
+        const imgSrc = answer.image;
       
         // Optional image
         if (imgSrc) {
