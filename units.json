@@ -278,11 +278,11 @@
       },
       {
         "id": "intro2",
-        "title": "About Me (age, grade, color)",
+        "title": "About Me (grade, color)",
         "script": [
           { "speaker": "You", "text": "Hello, my name is [name]." },
           { "speaker": "You", "text": "I'm in [grade] grade." },
-          { "speaker": "Coach", "text": "I like [color]."}
+          { "speaker": "You", "text": "I like [color]."}
         ],
         "answerBanks": {
           "grade": [
